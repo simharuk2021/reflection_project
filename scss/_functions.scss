@@ -1,0 +1,50 @@
+@import 'variables';
+
+@each $name,
+$color in $colors {
+    $i: index($colors, $name $color);
+
+    .item-#{$i} {
+        a {
+            background-color: $color;
+        }
+
+        &:hover {
+            background-color: $color;
+            color: #fff;
+
+            h2 {
+                color: #fff;
+            }
+
+            a {
+                color: $color;
+                background-color: #fff;
+            }
+
+            i {
+                color: $color;
+                background-color: #fff;
+            }
+        }
+    }
+
+    .icon-#{$i} {
+        background-color: $color;
+    }
+
+    .nav-item-#{$i} {
+        i {
+            color: $color;
+        }
+
+        &:hover {
+            background-color: $bk-white;
+            text-decoration: none;
+
+            i {
+                color: #fff;
+            }
+        }
+    }
+}

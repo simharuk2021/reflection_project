@@ -1,0 +1,55 @@
+//  Variables
+// ======================================
+
+// Background Colors
+$bk-white: #ffffff;
+$bk-white-two: #FFFFFF80;
+$bk-grey: #DDDDDD;
+$bk-green: #2ECC71;
+$bk-green-two: #00B67B;
+$bk-grey-three: #999AA2;
+$bk-blue: #4387F6;
+$bk-blue-two: #4183D7;
+$bk-pink: #F62459;
+$bk-blue-three: #67809F;
+$bk-purple: #926FB1;
+$bk-rust: #D64541;
+$bk-rust-two: #CE4125;
+$bk-grey-four: #333645;
+$bk-grey-five: #272936;
+// $bk-grey-six:#00000066;
+$bk-black: #000000;
+// $bk-grey-seven:#00000040;
+
+// Additional Text Colors
+$tx-yellow: #FFA500;
+$tx-grey: #A3A8AC;
+$tx-rust: #D24D57;
+$tx-grey: #666666;
+$tx-grey-two: #555555;
+
+
+// Fonts
+$font-stack-primary: Verdana, Geneva, Tahoma, sans-serif;
+$font-stack-secondary: Poppins, sans-serif;
+
+// Layout
+$max-width: 1200px;
+$gutter: 10px;
+
+// Breakpoints
+$break-xs: 576px;
+$break-s: 768px;
+$break-m: 992px;
+$break-l: 1260px;
+
+$colors: (
+    a: $bk-blue-three,
+    b: $bk-blue-two,
+    c: $bk-green,
+    d: $bk-rust,
+    e: $bk-purple,
+    f: $bk-pink,
+    g: $bk-rust-two
+);
+
