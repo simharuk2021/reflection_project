@@ -53,6 +53,12 @@
 
 //sign up to newsletter Media Queries
 @media only screen and (min-width:1000px) {
+    .sign-up-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 47px 0 43px;
+    }
+
     .form-wrapper {
         display: flex;
         flex-direction: row;

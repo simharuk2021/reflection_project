@@ -261,6 +261,11 @@ footer ul {
     flex-wrap: wrap;
     width: auto; } }
 @media only screen and (min-width: 1000px) {
+  .sign-up-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 47px 0 43px; }
+
   .form-wrapper {
     display: flex;
     flex-direction: row; }
@@ -277,9 +282,12 @@ body {
 html {
   line-height: 1.1; }
 
+#newsletter {
+  background-color: #ddd; }
+
 .sign-up-container {
-  background-color: #ddd;
-  padding: 50px; }
+  padding: 50px;
+  margin: 0 auto; }
 
 .required, .privacy-policy {
   color: #333645;
@@ -290,7 +298,8 @@ html {
   color: #D24D57; }
 
 .form-wrapper {
-  padding: 50px 0; }
+  padding: 50px 0;
+  max-width: 1200px; }
 
 .checkbox {
   height: 32px;
