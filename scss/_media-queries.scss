@@ -53,7 +53,7 @@
 
 //sign up to newsletter Media Queries
 @media only screen and (min-width:1000px) {
-    .sign-up-container{
+    .sign-up-container {
         max-width: 1200px;
         margin: 0 auto;
         padding: 47px 0 43px;
@@ -64,7 +64,8 @@
         flex-direction: row;
     }
 
-    .user_name, .user-email {
+    .user_name,
+    .user-email {
         display: flex;
         justify-content: space-between;
 
@@ -74,12 +75,15 @@
 
 // media query for client logos
 @media only screen and (min-width:1259px) {
-    .logo-list{
+    .logo-list {
         height: auto;
-        width:100%;
-        padding:0;
+        width: 100%;
+        padding: 0;
     }
-
-
+}
+//media query to hide the client logo-list
+@media only screen and (max-width:767px) {
+    .client-logo-area {
+        display: none;
     }
-
+}

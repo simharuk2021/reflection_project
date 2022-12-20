@@ -270,7 +270,8 @@ footer ul {
     display: flex;
     flex-direction: row; }
 
-  .user_name, .user-email {
+  .user_name,
+  .user-email {
     display: flex;
     justify-content: space-between; } }
 @media only screen and (min-width: 1259px) {
@@ -278,6 +279,9 @@ footer ul {
     height: auto;
     width: 100%;
     padding: 0; } }
+@media only screen and (max-width: 767px) {
+  .client-logo-area {
+    display: none; } }
 body {
   font-family: Poppins, sans-serif; }
 
@@ -344,7 +348,6 @@ html {
 .logo-list {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 100px; }
   .logo-list .client-item {
