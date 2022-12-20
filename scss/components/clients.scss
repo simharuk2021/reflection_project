@@ -1,0 +1,25 @@
+.client-logo-area {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 47px 0 43px;
+}
+
+.logo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink:1;
+    padding: 0 100px;
+    
+
+
+    .client-item {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+
+        &:hover {
+            -webkit-filter: grayscale(0);
+            filter: none;
+        }
+    }
+}
