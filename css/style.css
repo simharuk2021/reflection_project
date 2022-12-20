@@ -344,8 +344,8 @@ html {
 .logo-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  flex-shrink: 1;
   padding: 0 100px; }
   .logo-list .client-item {
     -webkit-filter: grayscale(1);
