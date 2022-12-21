@@ -88,6 +88,17 @@
     }
 }
 
+@media only screen and (max-width:767px) {
+    .inside-news-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .news-image {
+        max-width:100%;
+    }
+}
+
 //media query to hide the third news item on screen size reduction
 @media only screen and (max-width:1200px) {
     .ni3 {
@@ -96,14 +107,6 @@
     .ni1, .ni2{
         width:calc(100/2);
     }
+
 }
 
-@media only screen and (max-width:767px) {
-    .inside-news-container{
-        display:flex;
-        flex-direction: column;
-    }
-    .news-item {
-        width:100%;
-    }
-}
