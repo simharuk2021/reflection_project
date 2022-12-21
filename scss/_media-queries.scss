@@ -89,12 +89,21 @@
 }
 
 //media query to hide the third news item on screen size reduction
-
-@media only screen and (min-width:1200px) {
+@media only screen and (max-width:1200px) {
     .ni3 {
-        display: none;
+        display: none !important;
     }
     .ni1, .ni2{
         width:calc(100/2);
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .inside-news-container{
+        display:flex;
+        flex-direction: column;
+    }
+    .news-item {
+        width:100%;
     }
 }
