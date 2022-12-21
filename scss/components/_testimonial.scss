@@ -1,0 +1,27 @@
+.welcome-container{
+    background-color: $bk-grey-four;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.inside-welcome-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.welcome-heading{
+    color:white;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin: 0 0 28px;
+}
+
+.welcome-text{
+    color:white;
+    margin-bottom: 25px;
+}

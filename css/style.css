@@ -226,20 +226,22 @@
 @media only screen and (max-width: 767px) {
   .client-logo-area {
     display: none; } }
-@media only screen and (max-width: 767px) {
-  .inside-news-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; }
-
-  .news-image {
-    max-width: 100%; } }
 @media only screen and (max-width: 1200px) {
   .ni3 {
     display: none !important; }
 
   .ni1, .ni2 {
     width: calc(100/2); } }
+@media only screen and (max-width: 767px) {
+  .inside-news-container {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .news-image {
+    max-width: 100%; }
+
+  .ni3 {
+    display: unset !important; } }
 body {
   font-family: Poppins, sans-serif; }
 
@@ -379,6 +381,30 @@ footer ul {
   border-radius: .35em;
   border: #2ECC71; }
 
+.welcome-button {
+  color: #fff;
+  background-color: #272936;
+  border-radius: .35em;
+  text-align: center;
+  padding: .625em 1.25em;
+  margin-bottom: 1rem; }
+
+.google-button {
+  color: #fff;
+  background-color: #4387F6;
+  border-radius: .35em;
+  text-align: center;
+  padding: .625em 1.25em;
+  margin-top: 20px; }
+
+.tpilot-button {
+  color: #fff;
+  background-color: #00B67B;
+  border-radius: .35em;
+  text-align: center;
+  padding: .625em 1.25em;
+  margin-top: 20px; }
+
 .client-logo-area {
   max-width: 1200px;
   margin: 0 auto;
@@ -467,5 +493,34 @@ hr {
   position: relative;
   float: left;
   margin-right: 1rem; }
+
+.welcome-container {
+  background-color: #333645;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.inside-welcome-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.welcome-heading {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 0 0 28px; }
+
+.welcome-text {
+  color: white;
+  margin-bottom: 25px; }
+
+.fa-star {
+  color: orange;
+  margin-bottom: 25px;
+  font-size: 50px; }
 
 /*# sourceMappingURL=style.css.map */

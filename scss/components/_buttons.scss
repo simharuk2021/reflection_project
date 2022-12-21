@@ -23,3 +23,30 @@
 	border-radius: .35em;
 	border: $bk-green;
 }
+
+.welcome-button{
+	color: #fff;
+    background-color: #272936;
+	border-radius: .35em;
+	text-align: center;
+	padding: .625em 1.25em;
+	margin-bottom:1rem;
+}
+
+.google-button{
+	color: #fff;
+    background-color: $bk-blue;
+	border-radius: .35em;
+	text-align: center;
+	padding: .625em 1.25em;
+	margin-top: 20px;
+}
+
+.tpilot-button{
+	color: #fff;
+    background-color: $bk-green-two;
+	border-radius: .35em;
+	text-align: center;
+	padding: .625em 1.25em;
+	margin-top: 20px;
+}
