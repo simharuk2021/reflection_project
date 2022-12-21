@@ -226,6 +226,12 @@
 @media only screen and (max-width: 767px) {
   .client-logo-area {
     display: none; } }
+@media only screen and (min-width: 1200px) {
+  .ni3 {
+    display: none; }
+
+  .ni1, .ni2 {
+    width: calc(100/2); } }
 body {
   font-family: Poppins, sans-serif; }
 
@@ -387,7 +393,8 @@ footer ul {
 
 .news-container {
   margin: 0 auto;
-  padding: 47px 0 43px; }
+  padding: 47px 0 43px;
+  max-width: 1200px; }
 
 .inside-news-container {
   display: flex;
@@ -418,5 +425,8 @@ h3 {
 
 .news-image {
   max-width: 100%; }
+
+.news-button-container {
+  margin-left: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

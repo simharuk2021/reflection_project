@@ -1,6 +1,7 @@
 .news-container{
     margin:0 auto;
     padding: 47px 0 43px;
+    max-width: 1200px;
   
 }
 .inside-news-container{
@@ -36,4 +37,8 @@ h3 {
 
 .news-image{
     max-width: 100%;
+}
+
+.news-button-container{
+    margin-left:1rem;
 }

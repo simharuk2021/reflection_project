@@ -87,3 +87,14 @@
         display: none;
     }
 }
+
+//media query to hide the third news item on screen size reduction
+
+@media only screen and (min-width:1200px) {
+    .ni3 {
+        display: none;
+    }
+    .ni1, .ni2{
+        width:calc(100/2);
+    }
+}
