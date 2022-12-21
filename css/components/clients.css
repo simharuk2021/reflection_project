@@ -8,11 +8,17 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0 100px; }
-  .logo-list .client-item {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1); }
-    .logo-list .client-item:hover {
-      -webkit-filter: grayscale(0);
-      filter: none; }
+
+.client-item {
+  padding: 0px 20px; }
+
+.client-item img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  width: 100%;
+  height: auto; }
+  .client-item img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none; }
 
 /*# sourceMappingURL=clients.css.map */

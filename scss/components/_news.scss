@@ -1,0 +1,39 @@
+.news-container{
+    margin:0 auto;
+    padding: 47px 0 43px;
+  
+}
+.inside-news-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ni1{
+    width: calc(100/3);
+
+}
+.ni2, .ni3 {
+    width: calc(100/3);
+}
+
+h3 {
+    padding-top: -20px;
+    font-size: 1.4rem;
+}
+
+.news-item{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid grey;
+    margin:2rem;
+}
+.nh1{
+    color:$bk-green;
+}
+.nh2, nh3{
+    color:$bk-purple;
+}
+
+.news-image{
+    max-width: 100%;
+}
