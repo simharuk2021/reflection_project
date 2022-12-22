@@ -1,6 +1,8 @@
 @import'functions';
 @import'media-queries';
 @import'layout/base';
+@import'layout/columns';
+@import'layout/container';
 
 @import'components/footer';
 @import'components/form';
@@ -9,4 +11,6 @@
 @import'components/news';
 @import'components/testimonial';
 @import'components/icons';
+@import'components/services';
+@import'components/accreditations';
 

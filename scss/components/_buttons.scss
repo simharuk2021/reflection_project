@@ -1,3 +1,13 @@
+.button {
+	color: $bk-white;
+	text-align: center;
+	padding: .625em 1.25em;
+	border-radius: .35em;
+    &:hover{
+    text-decoration: none;
+    }
+}
+
 .signup-button{
     color:  #fff;
 	text-align: center;
