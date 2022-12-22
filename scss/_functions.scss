@@ -48,3 +48,13 @@ $color in $colors {
         }
     }
 }
+
+@each $name, $color in $button-colors {
+    $i: index($button-colors, $name $color);
+    .button-#{$i} {
+        &:hover {
+            background-color: $color;
+            text-decoration: none;
+        }
+    }
+}

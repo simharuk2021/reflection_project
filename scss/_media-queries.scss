@@ -98,6 +98,7 @@
     }
 }
 
+//media query which displays the news items in one column
 @media only screen and (max-width:767px) {
     .inside-news-container{
         display:flex;

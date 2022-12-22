@@ -7,6 +7,29 @@
 .service-btn-container {
     display: flex;
     justify-content: center;
-    padding:2rem;
+    padding: 2rem;
 }
 
+.service-item {
+    // width: 80%;
+    background-color: white;
+    background: #fff;
+    margin: 0 .5em .8em;
+    margin-top: 15px;
+    border: 1px solid #999aa2;
+    border-radius: 15px;
+    position: relative;
+    top: 0;
+    transition: .5s ease;
+
+    &:hover {
+        top: -10px;
+        transition: .5s ease !important;
+
+    }
+}
+
+.service-block {
+    color: #333645;
+    text-align: center;
+}

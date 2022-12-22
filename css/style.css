@@ -173,6 +173,42 @@
   .nav-item-7:hover i {
     color: #fff; }
 
+.button-1:hover {
+  background-color: #2a63ac;
+  text-decoration: none; }
+
+.button-2:hover {
+  background-color: #74747a;
+  text-decoration: none; }
+
+.button-3:hover {
+  background-color: #74747a;
+  text-decoration: none; }
+
+.button-4:hover {
+  background-color: #23252f;
+  text-decoration: none; }
+
+.button-5:hover {
+  background-color: #415063;
+  text-decoration: none; }
+
+.button-6:hover {
+  background-color: #121318;
+  text-decoration: none; }
+
+.button-7:hover {
+  background-color: #166af4;
+  text-decoration: none; }
+
+.button-8:hover {
+  background-color: #009b69;
+  text-decoration: none; }
+
+.button-9:hover {
+  background-color: #22242e;
+  text-decoration: none; }
+
 @media only screen and (min-width: 576px) {
   .main-footer {
     display: flex;
@@ -261,12 +297,10 @@ h3 {
   padding-right: 15px; }
 
 .col-3 {
-  width: calc(100/3);
-  border: solid 1px #333645;
-  border-radius: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  float: left; }
+  position: relative;
+  min-height: 1px;
+  padding-left: -15px;
+  padding-right: -15px; }
 
 .col-4 {
   width: calc(100/4);
@@ -388,7 +422,8 @@ footer ul {
   color: #ffffff;
   text-align: center;
   padding: .625em 1.25em;
-  border-radius: .35em; }
+  border-radius: .35em;
+  border: none; }
   .button:hover {
     text-decoration: none; }
 
@@ -479,10 +514,7 @@ footer ul {
   flex-direction: row;
   justify-content: space-between; }
 
-.ni1 {
-  width: calc(100/3); }
-
-.ni2, .ni3 {
+.ni, .ni2, .ni3 {
   width: calc(100/3); }
 
 h3 {
@@ -596,6 +628,10 @@ hr {
   align-items: center;
   color: #fff; }
 
+.icon-wrapper {
+  display: flex;
+  justify-content: center; }
+
 .our-services-container {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -605,6 +641,24 @@ hr {
   display: flex;
   justify-content: center;
   padding: 2rem; }
+
+.service-item {
+  background-color: white;
+  background: #fff;
+  margin: 0 .5em .8em;
+  margin-top: 15px;
+  border: 1px solid #999aa2;
+  border-radius: 15px;
+  position: relative;
+  top: 0;
+  transition: .5s ease; }
+  .service-item:hover {
+    top: -10px;
+    transition: .5s ease !important; }
+
+.service-block {
+  color: #333645;
+  text-align: center; }
 
 .accreditations-container {
   padding-top: 50px;

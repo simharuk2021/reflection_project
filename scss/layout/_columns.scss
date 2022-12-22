@@ -6,12 +6,10 @@
 }
 
 .col-3{
-    width: calc(100/3);
-    border: solid 1px $bk-grey-four; 
-    border-radius: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    float:left;
+    position:relative;
+    min-height: 1px;
+    padding-left: -15px;
+    padding-right: -15px;
 }
 
 .col-4{

@@ -33,10 +33,6 @@ $tx-grey-two: #555555;
 $font-stack-primary: Verdana, Geneva, Tahoma, sans-serif;
 $font-stack-secondary: Poppins, sans-serif;
 
-// Layout
-$max-width: 1200px;
-$gutter: 10px;
-
 // Breakpoints
 $break-xs: 576px;
 $break-s: 768px;
@@ -53,3 +49,14 @@ $colors: (
     g: $bk-rust-two
 );
 
+$button-colors: (
+    a: #2a63ac,
+    b: #74747a,
+    c: #74747a,
+    d: #23252f,
+    e: #415063,
+    f: #121318,
+    g: #166af4,
+    h: #009b69,
+    i: #22242e
+);
