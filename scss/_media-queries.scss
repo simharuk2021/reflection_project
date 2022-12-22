@@ -81,6 +81,7 @@
         padding: 0;
     }
 }
+
 //media query to hide the client logo-list
 @media only screen and (max-width:767px) {
     .client-logo-area {
@@ -93,41 +94,80 @@
     .ni3 {
         display: none !important;
     }
-    .ni1, .ni2{
-        width:calc(100/2);
+
+    .ni1,
+    .ni2 {
+        width: calc(100/2);
     }
 }
 
 //media query which displays the news items in one column
 @media only screen and (max-width:767px) {
-    .inside-news-container{
-        display:flex;
+    .inside-news-container {
+        display: flex;
         flex-wrap: wrap;
         // flex-direction: column;
     }
+
     .news-image {
-        max-width:100%;
+        max-width: 100%;
     }
+
     .ni3 {
         display: unset !important;
     }
 }
 
-@media only screen and (max-width:767px) {
-    .si-1, .si-2, .si-3 {
-        width:100%;
+@media only screen and (min-width:767px) {
+    .si-1 {
+        grid-area: service-1;
     }
-    .si-4, .si-5 {
-        width:50%;
+
+    .si-2 {
+        grid-area: service-2;
     }
-    .auto-grid{
-        display:grid;
+
+    .si-3 {
+        grid-area: service-3;
+    }
+
+    .si-4 {
+        grid-area: service-4;
+    }
+
+    .si-5 {
+        grid-area: service-5;
+    }
+
+    .si-6 {
+        grid-area: service-6;
+    }
+
+    .si-7 {
+        grid-area: service-7;
+    }
+
+    .auto-grid {
+        display: grid;
         grid-template-areas:
-        "si-1"
-        "si-2"
-        "si-3"
-        "si-4 si-5";
+            "service-1 service-1"
+            "service-2 service-2"
+            "service-3 service-3"
+            "service-4 service-5"
+            "service-6 service-7";
     }
-    
+}
+
+
+
+
+
+
+@media only screen and (min-width:992px) {
+
+    .auto-grid{
+        display:unset;
+    }
+
 
 }

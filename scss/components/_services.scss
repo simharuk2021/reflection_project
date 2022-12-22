@@ -12,6 +12,8 @@
 }
 
 .service-item {
+    display: flex;
+    flex-direction: column;
     width: auto;
     background-color: white;
     background: #fff;
