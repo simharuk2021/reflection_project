@@ -74,11 +74,13 @@ $color in $colors {
 
         &:hover {
             background-color: $color;
-            text-decoration: none;
 
             .button-#{$i} {
                 background-color: white;
                 color:$color;
+                .icon{
+                    background-color:white;
+                }
             }
             
         }
