@@ -49,12 +49,38 @@ $color in $colors {
     }
 }
 
-@each $name, $color in $button-colors {
-    $i: index($button-colors, $name $color);
+//changes the button color on hover
+@each $name,
+$color in $colors {
+    $i: index($colors, $name $color);
+
     .button-#{$i} {
+        background-color: $color;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #fff;
+            color: $color;
+        }
+    }
+}
+
+//changes the service item background color on hover
+@each $name,
+$color in $colors {
+    $i: index($colors, $name $color);
+
+    .si-#{$i} {
+
         &:hover {
             background-color: $color;
             text-decoration: none;
+
+            .button-#{$i} {
+                background-color: white;
+                color:$color;
+            }
+            
         }
     }
 }
