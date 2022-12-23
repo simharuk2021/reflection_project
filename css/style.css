@@ -799,14 +799,15 @@ a.block {
 .banner {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  max-width: 100%; }
 
 .img-cover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  height: em(550px); }
+  height: em(300px); }
 
 .banner-image {
   width: 100%;
