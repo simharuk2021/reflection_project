@@ -170,13 +170,10 @@
         justify-content: space-evenly;
     }
     .si-1, .si-2, .si-3{
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 333px;
+        flex: 1 1 333px;
+
     }
     .si-4,.si-5, .si-6, .si-7 {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 250px;
+        flex: 1 1 250px;
     }
 }

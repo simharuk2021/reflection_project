@@ -68,3 +68,26 @@
     margin-bottom:5rem;
     max-width: 40%; 
 }
+
+// .banner-button{
+//     // height: 50px;
+//     height: auto;
+//     padding: 5px 20px;
+//     font-size: 1.25rem;
+// 	text-align: center;
+// 	// padding: 5px 20px;
+// 	background: $bk-rust;
+// 	border-radius: .35em;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: space-evenly;
+// }
+.button {
+	color: $bk-white;
+	text-align: center;
+	padding: .625em 1.25em;
+	border-radius: .35em;
+    &:hover{
+    text-decoration: none;
+    }
+}

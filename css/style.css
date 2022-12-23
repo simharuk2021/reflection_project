@@ -388,14 +388,10 @@
     justify-content: space-evenly; }
 
   .si-1, .si-2, .si-3 {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 333px; }
+    flex: 1 1 333px; }
 
   .si-4, .si-5, .si-6, .si-7 {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 250px; } }
+    flex: 1 1 250px; } }
 body {
   font-family: Poppins, sans-serif; }
 
@@ -594,6 +590,14 @@ footer ul {
   margin-bottom: 5rem;
   max-width: 40%; }
 
+.button {
+  color: #ffffff;
+  text-align: center;
+  padding: .625em 1.25em;
+  border-radius: .35em; }
+  .button:hover {
+    text-decoration: none; }
+
 .client-logo-area {
   max-width: 1200px;
   margin: 0 auto;
@@ -791,5 +795,21 @@ a.block {
 .accreditations-container {
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.img-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  height: em(550px); }
+
+.banner-image {
+  width: 100%;
+  object-fit: scale-down; }
 
 /*# sourceMappingURL=style.css.map */
