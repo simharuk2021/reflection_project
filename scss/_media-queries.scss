@@ -106,7 +106,6 @@
     .inside-news-container {
         display: flex;
         flex-wrap: wrap;
-        // flex-direction: column;
     }
 
     .news-image {
@@ -118,6 +117,7 @@
     }
 }
 
+//media query which places the first three services as full width and places the remaining four into two rows of two
 @media only screen and (min-width:767px) {
     .si-1 {
         grid-area: service-1;
@@ -156,18 +156,27 @@
             "service-4 service-5"
             "service-6 service-7";
     }
+
+
 }
 
-
-
-
-
-
+//media query which flexes the services into a row of three followed by a row of four
 @media only screen and (min-width:992px) {
 
-    .auto-grid{
-        display:unset;
+    .auto-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
-
-
+    .si-1, .si-2, .si-3{
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 333px;
+    }
+    .si-4,.si-5, .si-6, .si-7 {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 250px;
+    }
 }

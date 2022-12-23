@@ -12,9 +12,6 @@
     color: #67809F;
     background-color: #fff; }
 
-.icon-1 {
-  background-color: #67809F; }
-
 .nav-item-1 i {
   color: #67809F; }
 .nav-item-1:hover {
@@ -36,9 +33,6 @@
   .item-2:hover i {
     color: #4183D7;
     background-color: #fff; }
-
-.icon-2 {
-  background-color: #4183D7; }
 
 .nav-item-2 i {
   color: #4183D7; }
@@ -62,9 +56,6 @@
     color: #2ECC71;
     background-color: #fff; }
 
-.icon-3 {
-  background-color: #2ECC71; }
-
 .nav-item-3 i {
   color: #2ECC71; }
 .nav-item-3:hover {
@@ -86,9 +77,6 @@
   .item-4:hover i {
     color: #D64541;
     background-color: #fff; }
-
-.icon-4 {
-  background-color: #D64541; }
 
 .nav-item-4 i {
   color: #D64541; }
@@ -112,9 +100,6 @@
     color: #926FB1;
     background-color: #fff; }
 
-.icon-5 {
-  background-color: #926FB1; }
-
 .nav-item-5 i {
   color: #926FB1; }
 .nav-item-5:hover {
@@ -137,9 +122,6 @@
     color: #F62459;
     background-color: #fff; }
 
-.icon-6 {
-  background-color: #F62459; }
-
 .nav-item-6 i {
   color: #F62459; }
 .nav-item-6:hover {
@@ -161,9 +143,6 @@
   .item-7:hover i {
     color: #CE4125;
     background-color: #fff; }
-
-.icon-7 {
-  background-color: #CE4125; }
 
 .nav-item-7 i {
   color: #CE4125; }
@@ -227,56 +206,84 @@
   .si-1:hover .button-1 {
     background-color: white;
     color: #67809F; }
-    .si-1:hover .button-1 .icon {
-      background-color: white; }
 
 .si-2:hover {
   background-color: #4183D7; }
   .si-2:hover .button-2 {
     background-color: white;
     color: #4183D7; }
-    .si-2:hover .button-2 .icon {
-      background-color: white; }
 
 .si-3:hover {
   background-color: #2ECC71; }
   .si-3:hover .button-3 {
     background-color: white;
     color: #2ECC71; }
-    .si-3:hover .button-3 .icon {
-      background-color: white; }
 
 .si-4:hover {
   background-color: #D64541; }
   .si-4:hover .button-4 {
     background-color: white;
     color: #D64541; }
-    .si-4:hover .button-4 .icon {
-      background-color: white; }
 
 .si-5:hover {
   background-color: #926FB1; }
   .si-5:hover .button-5 {
     background-color: white;
     color: #926FB1; }
-    .si-5:hover .button-5 .icon {
-      background-color: white; }
 
 .si-6:hover {
   background-color: #F62459; }
   .si-6:hover .button-6 {
     background-color: white;
     color: #F62459; }
-    .si-6:hover .button-6 .icon {
-      background-color: white; }
 
 .si-7:hover {
   background-color: #CE4125; }
   .si-7:hover .button-7 {
     background-color: white;
     color: #CE4125; }
-    .si-7:hover .button-7 .icon {
-      background-color: white; }
+
+.icon-1 {
+  background-color: #67809F; }
+  .icon-1:hover {
+    background-color: white;
+    color: #67809F; }
+
+.icon-2 {
+  background-color: #4183D7; }
+  .icon-2:hover {
+    background-color: white;
+    color: #4183D7; }
+
+.icon-3 {
+  background-color: #2ECC71; }
+  .icon-3:hover {
+    background-color: white;
+    color: #2ECC71; }
+
+.icon-4 {
+  background-color: #D64541; }
+  .icon-4:hover {
+    background-color: white;
+    color: #D64541; }
+
+.icon-5 {
+  background-color: #926FB1; }
+  .icon-5:hover {
+    background-color: white;
+    color: #926FB1; }
+
+.icon-6 {
+  background-color: #F62459; }
+  .icon-6:hover {
+    background-color: white;
+    color: #F62459; }
+
+.icon-7 {
+  background-color: #CE4125; }
+  .icon-7:hover {
+    background-color: white;
+    color: #CE4125; }
 
 @media only screen and (min-width: 576px) {
   .main-footer {
@@ -375,7 +382,20 @@
     grid-template-areas: "service-1 service-1" "service-2 service-2" "service-3 service-3" "service-4 service-5" "service-6 service-7"; } }
 @media only screen and (min-width: 992px) {
   .auto-grid {
-    display: unset; } }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+
+  .si-1, .si-2, .si-3 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 333px; }
+
+  .si-4, .si-5, .si-6, .si-7 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px; } }
 body {
   font-family: Poppins, sans-serif; }
 
@@ -407,10 +427,6 @@ h3 {
   padding-left: 15px;
   padding-right: 15px;
   float: left; }
-
-.row {
-  display: flex;
-  justify-content: space-evenly; }
 
 .container {
   margin-right: auto;
@@ -745,6 +761,7 @@ hr {
   display: flex;
   flex-direction: column;
   width: auto;
+  position: relative;
   background-color: white;
   background: #fff;
   margin: 0 .5em .8em;
@@ -752,7 +769,6 @@ hr {
   border: 1px solid #999aa2;
   text-decoration: none;
   border-radius: 15px;
-  position: relative;
   top: 0;
   transition: .5s ease; }
   .service-item:hover {
@@ -761,6 +777,9 @@ hr {
 
 .service-block {
   color: #333645;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   text-align: center; }
 
 a.block {
