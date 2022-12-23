@@ -1,24 +1,23 @@
-.col{
-    width:50%;
-    float:left;
+.col {
+    position: relative;
+    min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
+    flex-basis: auto;
 }
 
-.col-3{
-    position:relative;
+.col-3 {
+    position: relative;
     min-height: 1px;
     padding-left: -15px;
     padding-right: -15px;
 }
 
-.col-4{
+.col-4 {
     width: calc(100/4);
-    border: solid 1px $bk-grey-four; 
+    border: solid 1px $bk-grey-four;
     border-radius: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    float:left;
+    float: left;
 }
-
-

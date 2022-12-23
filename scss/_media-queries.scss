@@ -183,6 +183,13 @@
     .si-7 {
         flex: 1 1 250px;
     }
+    .col{
+        width:50%;
+        float:left;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }    
 }
 
 //media query to reduce the banner content size, align center and remove the margin from the container
@@ -201,5 +208,6 @@
     .banner-content .banner-text {
         font-size: 1.25rem;
         line-height: 1.75rem;
+
     }
 }
