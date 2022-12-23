@@ -71,11 +71,18 @@
 
 .banner-button{
 	color: #fff;
+	line-height: 50px;
 	background: $bk-rust;
 	border-radius: .35em;
 	text-align: center;
-	padding: .625em 1.25em;
+	padding: 5px 20px;
+	margin-top: 1.938rem;
 	margin-bottom:1rem;
+	font-size: 1.25rem;
+	border: 1px solid transparent;
+		&:hover{
+			color:white;
+		}
 }
 // .banner-button{
 //     height: auto;
