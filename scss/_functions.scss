@@ -76,11 +76,14 @@ $color in $colors {
                 color: $color;
 
             }
+            .icon-#{$i} {
+                color: $color;
+                background-color: $bk-white;
 
         }
     }
 }
-
+}
 //sets the color for the icons
 @each $name,
 $color in $colors {
@@ -101,11 +104,6 @@ $color in $colors {
     $i: index($colors, $name $color);
 
     .nav-item-#{$i} {
-        background-color: $color;
-
-        &:hover {
-            background-color: white;
-            color: $color;
-        }
+        color: $color;
     }
 }

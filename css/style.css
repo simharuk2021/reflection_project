@@ -206,42 +206,63 @@
   .si-1:hover .button-1 {
     background-color: white;
     color: #67809F; }
+  .si-1:hover .icon-1 {
+    color: #67809F;
+    background-color: #ffffff; }
 
 .si-2:hover {
   background-color: #4183D7; }
   .si-2:hover .button-2 {
     background-color: white;
     color: #4183D7; }
+  .si-2:hover .icon-2 {
+    color: #4183D7;
+    background-color: #ffffff; }
 
 .si-3:hover {
   background-color: #2ECC71; }
   .si-3:hover .button-3 {
     background-color: white;
     color: #2ECC71; }
+  .si-3:hover .icon-3 {
+    color: #2ECC71;
+    background-color: #ffffff; }
 
 .si-4:hover {
   background-color: #D64541; }
   .si-4:hover .button-4 {
     background-color: white;
     color: #D64541; }
+  .si-4:hover .icon-4 {
+    color: #D64541;
+    background-color: #ffffff; }
 
 .si-5:hover {
   background-color: #926FB1; }
   .si-5:hover .button-5 {
     background-color: white;
     color: #926FB1; }
+  .si-5:hover .icon-5 {
+    color: #926FB1;
+    background-color: #ffffff; }
 
 .si-6:hover {
   background-color: #F62459; }
   .si-6:hover .button-6 {
     background-color: white;
     color: #F62459; }
+  .si-6:hover .icon-6 {
+    color: #F62459;
+    background-color: #ffffff; }
 
 .si-7:hover {
   background-color: #CE4125; }
   .si-7:hover .button-7 {
     background-color: white;
     color: #CE4125; }
+  .si-7:hover .icon-7 {
+    color: #CE4125;
+    background-color: #ffffff; }
 
 .icon-1 {
   background-color: #67809F; }
@@ -284,6 +305,27 @@
   .icon-7:hover {
     background-color: white;
     color: #CE4125; }
+
+.nav-item-1 {
+  color: #67809F; }
+
+.nav-item-2 {
+  color: #4183D7; }
+
+.nav-item-3 {
+  color: #2ECC71; }
+
+.nav-item-4 {
+  color: #D64541; }
+
+.nav-item-5 {
+  color: #926FB1; }
+
+.nav-item-6 {
+  color: #F62459; }
+
+.nav-item-7 {
+  color: #CE4125; }
 
 @media only screen and (min-width: 576px) {
   .main-footer {
@@ -885,5 +927,11 @@ a.block {
 
 .nav-text-1, .nav-text-2 {
   color: white; }
+
+.navigation-icon:hover {
+  background-color: #333645; }
+
+.navigation-wrapper a {
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
