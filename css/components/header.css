@@ -1,0 +1,14 @@
+.header-container-wrapper {
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row; }
+
+.logo-container {
+  float: left; }
+
+.nm-logo {
+  vertical-align: middle;
+  max-width: 100%; }
+
+/*# sourceMappingURL=header.css.map */
