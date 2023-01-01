@@ -84,23 +84,19 @@
 			color:white;
 		}
 }
-// .banner-button{
-//     height: auto;
-//     padding: 5px 20px;
-//     font-size: 1.25rem;
-// 	text-align: center;
-// 	background: $bk-rust;
-// 	border-radius: .35em;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-evenly;
-// }
-.button {
-	color: $bk-white;
-	text-align: center;
-	padding: .625em 1.25em;
-	border-radius: .35em;
-    &:hover{
-    text-decoration: none;
-    }
+.header-button{
+	height: auto;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+    line-height: 50px;
+    border-radius: 3px;
+	text-transform: uppercase;
+	color:#fff;
+	border:none;
+}
+.support-button{
+	background-color: $bk-blue-two;
+}
+.contact-button{
+	background-color: $bk-grey-three;
 }

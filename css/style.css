@@ -686,13 +686,21 @@ footer ul {
   .banner-button:hover {
     color: white; }
 
-.button {
-  color: #ffffff;
-  text-align: center;
-  padding: .625em 1.25em;
-  border-radius: .35em; }
-  .button:hover {
-    text-decoration: none; }
+.header-button {
+  height: auto;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  line-height: 50px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none; }
+
+.support-button {
+  background-color: #4183D7; }
+
+.contact-button {
+  background-color: #999AA2; }
 
 .client-logo-area {
   max-width: 1200px;
@@ -964,7 +972,6 @@ a.block {
   float: left; }
 
 .nm-logo {
-  vertical-align: middle;
   max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
