@@ -95,3 +95,17 @@ $color in $colors {
         }
     }
 }
+
+@each $name,
+$color in $colors {
+    $i: index($colors, $name $color);
+
+    .nav-item-#{$i} {
+        background-color: $color;
+
+        &:hover {
+            background-color: white;
+            color: $color;
+        }
+    }
+}
