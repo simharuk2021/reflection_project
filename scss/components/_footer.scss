@@ -7,8 +7,6 @@ footer{
     max-width: 1200px;
     margin:0 auto;
     padding: 47px 0 43px;
-    // display:flex;
-    // flex-direction: row;
 }
 
 footer ul {
@@ -16,6 +14,9 @@ footer ul {
     color: $bk-white;
     font-size: .8125rem;
     line-height: 1.375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social {

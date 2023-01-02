@@ -2,12 +2,22 @@
   padding: 20px 0;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row; }
+  flex-direction: column; }
 
 .logo-container {
   float: left; }
 
 .nm-logo {
   max-width: 100%; }
+
+.main-form {
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  transition: none;
+  width: 100%;
+  padding-right: 40px;
+  line-height: 46px;
+  padding: 5px 20px; }
 
 /*# sourceMappingURL=header.css.map */

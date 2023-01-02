@@ -17,13 +17,6 @@
 
 }
 
-@media only screen and (min-width:480px) {
-
-    .footer-item {
-        width: 50%;
-    }
-}
-
 @media only screen and (min-width:705px) {
 
     .fi1,
@@ -115,6 +108,8 @@
     .ni3 {
         display: unset !important;
     }
+
+
 }
 
 //media query which places the first three services as full width and places the remaining four into two rows of two
@@ -156,8 +151,9 @@
             "service-4 service-5"
             "service-6 service-7";
     }
-
-
+    #header-row{
+        flex-direction: row;
+    }
 }
 
 //media query which flexes the services into a row of three followed by a row of four
@@ -189,7 +185,9 @@
         padding-left: 15px;
         padding-right: 15px;
         
-    }    
+    }   
+    
+  
 }
 
 //media query to reduce the banner content size, align center and remove the margin from the container
@@ -210,4 +208,11 @@
         line-height: 1.75rem;
 
     }
+    .navigation{
+        display:none;
+    } 
+    .actions-container{
+        display:none;
+    }
 }
+
