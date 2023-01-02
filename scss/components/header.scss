@@ -1,4 +1,4 @@
-.header-container-wrapper{
+.header-container-wrapper {
     padding: 20px 0;
     box-sizing: border-box;
     display: flex;
@@ -21,5 +21,27 @@
     width: 100%;
     padding-right: 40px;
     line-height: 46px;
-    padding:5px 20px;
+    padding: 5px 20px;
+}
+
+.fa-paper-plane,
+.fa-computer-mouse {
+    padding: 4px;
+}
+
+.hamburger {
+    color: #fff;
+    background-color: #333645;
+    border-color: #333645;
+    font-size:25px;
+    padding: 11px; 
+    float: left;
+}
+
+.hamburger-inner{
+    background-color: #fff;
+}
+
+.hamburger-box{
+    align-self: center;
 }
