@@ -29,13 +29,17 @@
     &:hover {
         top: -10px;
         transition: .5s ease !important;
+        cursor: pointer;
 
+        .service-block {
+            color: #fff;
+        }
     }
 }
 
 .service-block {
     color: #333645;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-content: center;
     text-align: center;
@@ -48,4 +52,3 @@ a.block {
 .service-block h3 {
     font-weight: 600;
 }
-

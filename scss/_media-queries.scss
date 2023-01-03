@@ -1,5 +1,31 @@
 @import'variables';
 
+@mixin media-query($break) {
+    @if $break == "small" {
+        @media (min-width: $break-xs)  {
+            @content;
+        }
+    }
+    @else if $break == "medium" {
+        @media (min-width: $break-s) {
+            @content;
+        }
+    }
+    @else if $break == "large" {
+        @media (min-width: $break-m) {
+            @content;
+        }
+    }
+    @else if $break == "x-large" {
+        @media (min-width: $break-l) {
+            @content;
+        }
+    }
+    @else {
+        @error "Error: No value could be retrieved from argument $break: '#{$break}'";
+    }
+}
+
 //footer Media Queries 
 @media only screen and (min-width:$break-xs) {
     .main-footer {
@@ -28,7 +54,6 @@
     .fi4,
     .fi5 {
         width: 33%;
-        // max-width: 225px;
     }
 
     .main-footer {
@@ -151,9 +176,27 @@
             "service-4 service-5"
             "service-6 service-7";
     }
-    #header-row{
-        flex-direction: row;
-    }
+
+    // #header-row {
+    //     flex-direction: row;
+    // }
+
+    // .logo-container {
+    //     order: 1;
+    // }
+
+    // .actions-container {
+    //     order: 2
+    // }
+
+    // .header-form {
+    //     order: 3;
+    // }
+
+    // .hamburger-box {
+    //     display: flex;
+    //     order: 4;
+    // }
 }
 
 //media query which flexes the services into a row of three followed by a row of four
@@ -179,15 +222,16 @@
     .si-7 {
         flex: 1 1 250px;
     }
-    .col{
-        width:50%;
-        float:left;
+
+    .col {
+        width: 50%;
+        float: left;
         padding-left: 15px;
         padding-right: 15px;
-        
-    }   
-    
-  
+
+    }
+
+
 }
 
 //media query to reduce the banner content size, align center and remove the margin from the container
@@ -208,11 +252,12 @@
         line-height: 1.75rem;
 
     }
-    .navigation{
-        display:none;
-    } 
-    .actions-container{
-        display:none;
+
+    .navigation {
+        display: none;
+    }
+
+    .actions-container {
+        display: none;
     }
 }
-

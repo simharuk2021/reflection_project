@@ -19,7 +19,10 @@ $bk-grey-four: #333645;
 $bk-grey-five: #272936;
 $light-grey:#ddd;
 $bk-black: #000000;
-// $bk-grey-seven:#00000040;
+$bk-silver: #e5e5e5;
+$bk-silver-two: #ccc;
+$bk-dark-grey: #666;
+$search-border: #5bc0de;
 
 // Additional Text Colors
 $tx-yellow: #FFA500;
@@ -35,9 +38,9 @@ $font-stack-secondary: Poppins, sans-serif;
 
 // Breakpoints
 $break-xs: 576px;
-$break-s: 768px;
-$break-m: 992px;
-$break-l: 1260px;
+$break-s: 767px;
+$break-m: 991px;
+$break-l: 1259px;
 
 $colors: (
     a: $bk-blue-three,
