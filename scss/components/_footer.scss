@@ -1,11 +1,12 @@
 @import'variables';
 
-footer{
+footer {
     background-color: $bk-grey-four;
 }
+
 .main-footer {
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 47px 0 43px;
 }
 
@@ -37,14 +38,22 @@ footer ul {
     flex-wrap: wrap;
     align-items: baseline;
     color: #fff;
+
+    &-container {
+        background-color: $bk-grey-four;
+        color: $bk-white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-.footer-bottom-container {
-    background-color: $bk-grey-four;
-    color: $bk-white;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.footer-link {
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+
+    }
 }
 
 .footer-item {
@@ -52,7 +61,7 @@ footer ul {
     flex-direction: column;
 }
 
-.footer-item-heading{
+.footer-item-heading {
     font-size: 1rem;
 }
 
@@ -64,6 +73,7 @@ footer ul {
 .site-link a {
     color: $bk-white;
 }
+
 #h-line {
-    background-color:white;
+    background-color: white;
 }
