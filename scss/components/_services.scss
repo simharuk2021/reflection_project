@@ -1,7 +1,6 @@
 .our-services-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    // margin-bottom: 50px;
 
 }
 
@@ -43,6 +42,10 @@
     flex-direction: column;
     align-content: center;
     text-align: center;
+}
+
+.service-block p {
+    padding: 5px;
 }
 
 a.block {

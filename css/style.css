@@ -601,7 +601,8 @@ footer ul {
   margin-right: 30px;
   margin-bottom: 30px;
   accent-color: #333645;
-  cursor: pointer; }
+  cursor: pointer;
+  border-radius: 3px; }
 
 #privacy-link {
   text-decoration: underline;
@@ -931,6 +932,9 @@ hr {
   flex-direction: column;
   align-content: center;
   text-align: center; }
+
+.service-block p {
+  padding: 5px; }
 
 a.block {
   text-decoration: none; }
