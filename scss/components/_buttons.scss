@@ -46,6 +46,10 @@
 	padding: .625em 1.25em;
 	margin-bottom:1rem;
 	text-transform: uppercase;
+	&:hover {
+		background-color: darken(#272936, 10%);
+		color:white;
+	}
 }
 
 .google-button{
@@ -55,6 +59,11 @@
 	text-align: center;
 	padding: .625em 1.25em;
 	margin-top: 20px;
+
+	&:hover {
+		background-color: darken($bk-blue, 10%);
+		color:white;
+	}
 }
 
 .tpilot-button{
@@ -64,6 +73,11 @@
 	text-align: center;
 	padding: .625em 1.25em;
 	margin-top: 20px;
+
+	&:hover {
+		background-color: darken($bk-green-two, 10%);
+		color:white;
+	}
 }
 
 .centre-button{
