@@ -1,26 +1,30 @@
 @import'variables';
 
 @mixin media-query($break) {
-    @if $break == "small" {
-        @media (min-width: $break-xs)  {
+    @if $break =="small" {
+        @media (min-width: $break-xs) {
             @content;
         }
     }
-    @else if $break == "medium" {
+
+    @else if $break =="medium" {
         @media (min-width: $break-s) {
             @content;
         }
     }
-    @else if $break == "large" {
+
+    @else if $break =="large" {
         @media (min-width: $break-m) {
             @content;
         }
     }
-    @else if $break == "x-large" {
+
+    @else if $break =="x-large" {
         @media (min-width: $break-l) {
             @content;
         }
     }
+
     @else {
         @error "Error: No value could be retrieved from argument $break: '#{$break}'";
     }
@@ -96,11 +100,16 @@
 
 //media query to hide the client logo-list
 @media only screen and (max-width:767px) {
-    .client-logo-area, #bar-heading-link {
+
+    .client-logo-area,
+    #bar-heading-link {
         display: none;
     }
-    .license{display: flex;
-    flex-direction: column;}
+
+    .license {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 //media query to hide the third news item on screen size reduction

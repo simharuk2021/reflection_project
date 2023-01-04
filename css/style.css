@@ -370,7 +370,8 @@
     width: 100%;
     padding: 0; } }
 @media only screen and (max-width: 767px) {
-  .client-logo-area, #bar-heading-link {
+  .client-logo-area,
+  #bar-heading-link {
     display: none; }
 
   .license {
@@ -589,8 +590,8 @@ footer ul {
   color: #D24D57; }
 
 .form-wrapper {
-  padding: 40px 0;
-  max-width: 1200px; }
+  max-width: 1200px;
+  margin: 0 0 15px; }
 
 .checkbox {
   height: 32px;
@@ -599,10 +600,8 @@ footer ul {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
+  accent-color: #333645;
   cursor: pointer; }
-  .checkbox:checked {
-    background-color: #333645 !important;
-    border-color: #333645 !important; }
 
 #privacy-link {
   text-decoration: underline;
@@ -616,7 +615,7 @@ footer ul {
   margin-right: 15px; }
 
 .form-control {
-  min-height: 3rem; }
+  min-height: 2.8rem; }
 
 .button {
   color: #ffffff;
@@ -1048,7 +1047,8 @@ a.block {
     width: 100%;
     padding: 0; } }
 @media only screen and (max-width: 767px) {
-  .client-logo-area, #bar-heading-link {
+  .client-logo-area,
+  #bar-heading-link {
     display: none; }
 
   .license {

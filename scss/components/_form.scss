@@ -17,8 +17,8 @@
 }
 
 .form-wrapper{
-    padding:40px 0;
     max-width:1200px;
+    margin: 0 0 15px;
     
     
 }
@@ -30,11 +30,8 @@
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
+    accent-color: $bk-grey-four;
     cursor: pointer;
-    &:checked {
-        background-color: #333645 !important;
-        border-color: #333645 !important;
-    }
 }
 
 #privacy-link{
@@ -49,7 +46,7 @@
     margin-right:15px;
 }
 .form-control{
-    min-height: 3rem;
+    min-height: 2.8rem;
 }
 
 
