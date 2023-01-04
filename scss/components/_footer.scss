@@ -7,7 +7,7 @@ footer {
 .main-footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 47px 0 43px;
+    padding: 47px 0 33px;
 }
 
 footer ul {
@@ -29,8 +29,9 @@ footer ul {
     max-height: 38px;
 }
 
-.footer-bottom {
-    display: flex;
+.footer-bottom-container {
+    display: flex !important;
+    flex-direction: row;
     justify-content: space-between;
     border-top: 1px solid #888;
     padding-top: 10px;
@@ -42,9 +43,6 @@ footer ul {
     &-container {
         background-color: $bk-grey-four;
         color: $bk-white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }
 
@@ -76,4 +74,5 @@ footer ul {
 
 #h-line {
     background-color: white;
+    width:auto;
 }

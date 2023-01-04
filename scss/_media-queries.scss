@@ -35,12 +35,6 @@
         flex-wrap: wrap;
     }
 
-    .footer-bottom-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
 }
 
 @media only screen and (min-width:705px) {
@@ -105,6 +99,8 @@
     .client-logo-area, #bar-heading-link {
         display: none;
     }
+    .license{display: flex;
+    flex-direction: column;}
 }
 
 //media query to hide the third news item on screen size reduction
