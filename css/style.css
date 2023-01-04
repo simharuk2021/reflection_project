@@ -375,7 +375,7 @@
     width: 100%;
     padding: 0; } }
 @media only screen and (max-width: 767px) {
-  .client-logo-area {
+  .client-logo-area, #bar-heading-link {
     display: none; } }
 @media only screen and (max-width: 1200px) {
   .ni3 {
@@ -799,6 +799,8 @@ h3 {
 .news-text {
   padding-left: 15px;
   padding-right: 15px; }
+  .news-text-wrapper {
+    text-decoration: none !important; }
 
 .seperating-bar {
   padding-top: 50px; }
@@ -1053,7 +1055,7 @@ a.block {
     width: 100%;
     padding: 0; } }
 @media only screen and (max-width: 767px) {
-  .client-logo-area {
+  .client-logo-area, #bar-heading-link {
     display: none; } }
 @media only screen and (max-width: 1200px) {
   .ni3 {

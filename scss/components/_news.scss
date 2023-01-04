@@ -61,6 +61,9 @@ h3 {
 .news-text{
     padding-left: 15px;
     padding-right: 15px;
+    &-wrapper{
+    text-decoration: none !important;
+    }
 }
 
 .seperating-bar{
