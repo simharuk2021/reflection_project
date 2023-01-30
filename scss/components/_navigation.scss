@@ -10,7 +10,7 @@
 
 }
 
-.dropdown {
+.sub-banner {
     display: none;
 }
 
@@ -20,15 +20,19 @@
     align-items: center;
     padding: 19px 0 18px;
 
+
+}
+
+.nav-item {
     &:hover {
-        .dropdown {
+        .sub-banner {
             display: flex;
             position:absolute;
             z-index:2;
+            // margin-top:20px;
         }
     }
 }
-
 .nav-text-1,
 .nav-text-2 {
     color: white;
