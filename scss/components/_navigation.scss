@@ -1,6 +1,6 @@
 .navigation {
     background-color: $bk-grey-four;
-    position:relative;
+    position: relative;
 }
 
 .navigation-wrapper {
@@ -68,8 +68,8 @@
     left: 0;
     background-color: #526781;
     z-index: 5;
-    width:100vw;
-    margin:auto;
+    width: 100vw;
+    margin: auto;
 }
 
 .sub-menu {
@@ -88,10 +88,16 @@
     width: 33%;
     margin-top: 15px;
     color: white;
+
+}
+
+.sub-item-link {
+    text-decoration: none;
+    color: white;
 }
 
 .sub-banner-title {
-    color:white;
+    color: white;
     width: 100%;
     margin-bottom: 10px;
     margin-top: 15px;
