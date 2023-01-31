@@ -1,12 +1,13 @@
 .navigation {
     background-color: $bk-grey-four;
+    position:relative;
 }
 
 .navigation-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    position: relative;
+    // position: relative;
 
 }
 
@@ -26,13 +27,12 @@
 .nav-item {
     &:hover {
         .sub-banner {
-            display: flex;
+            display: block;
             position: absolute;
             z-index: 2;
-            position: absolute;
             top: 100%;
             left: 0;
-            min-width: 100%;
+            width: 100vw;
             z-index: 10;
             padding-top: 50px;
             padding-bottom: 50px;
@@ -68,6 +68,8 @@
     left: 0;
     background-color: grey;
     z-index: 5;
+    width:100vw;
+    margin:auto;
 }
 
 .sub-menu {
