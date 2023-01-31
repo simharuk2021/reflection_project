@@ -62,25 +62,34 @@
     font-size: 1.125rem;
 }
 
-.sub-menu{
+.sub-banner {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    background-color: grey;
+    z-index: 5;
+}
+
+.sub-menu {
     display: flex;
-flex-wrap: wrap;
-align-items: center;
-margin-top: -15px;
-list-style: none;
-text-align: left;
-padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -15px;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+
 }
 
 
-.sub-items{
-    width:33%;
+.sub-items {
+    width: 33%;
     margin-top: 15px;
 }
 
-.sub-banner-title{
-    width:100%;
+.sub-banner-title {
+    width: 100%;
     margin-bottom: 10px;
     margin-top: 15px;
-    font-weight:500;
+    font-weight: 500;
 }
