@@ -108,3 +108,12 @@ $color in $colors {
     }
 }
 
+@each $name,
+$color in $banner-colors {
+    $i: index($banner-colors, $name $color);
+
+    .ban-color-#{$i} {
+            background-color: $color;
+        
+    }
+}
