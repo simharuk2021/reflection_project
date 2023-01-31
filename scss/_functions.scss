@@ -76,14 +76,16 @@ $color in $colors {
                 color: $color;
 
             }
+
             .icon-#{$i} {
                 color: $color;
                 background-color: $bk-white;
 
+            }
         }
     }
 }
-}
+
 //sets the color for the icons
 @each $name,
 $color in $colors {
@@ -113,7 +115,20 @@ $color in $banner-colors {
     $i: index($banner-colors, $name $color);
 
     .ban-color-#{$i} {
-            background-color: $color;
-        
+        background-color: $color;
+
+    }
+}
+
+@each $name,
+$color in $banner-colors {
+    $i: index($banner-colors, $name $color);
+
+    .nav-color-#{$i} {
+        background-color: none;
+
+        &:hover {
+            background-color: lighten($color, 10%);
+        }
     }
 }
