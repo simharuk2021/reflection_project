@@ -20,12 +20,14 @@ h3 {
 }
 
 .news-item{
-        // width: 80%;
         background-color: white;
         background: #fff;
         margin: 0 .5em .8em;
         margin-top:15px;
-        border: 1px solid #999aa2;
+        border: 1px solid #ccc;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        box-shadow: 0 3px 35px #ccc(0 0 0 / 10%);
         position: relative;
         top: 0;
         
@@ -57,8 +59,8 @@ h3 {
 }
 
 .news-text{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     &-wrapper{
     text-decoration: none !important;
     }

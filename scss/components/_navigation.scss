@@ -21,6 +21,7 @@
     padding: 19px 0 18px;
     background-color: none;
     width:10rem;
+    
 }
 
 .nav-item {
@@ -39,6 +40,14 @@
         .fa-th, .fa-solid, .fas {
             color:white;
         }
+        .arrow-down {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            
+            border-top: 20px solid #f00;
+          }
     }
 }
 
@@ -52,12 +61,6 @@
     padding-bottom: 1px;
 }
 
-// .navigation-icon {
-
-//     &:hover {
-//         background-color: $bk-grey-four;
-//     }
-// }
 
 .navigation-wrapper a {
     text-decoration: none;
@@ -104,3 +107,4 @@
     margin-top: 15px;
     font-weight: 500;
 }
+
