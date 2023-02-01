@@ -73,8 +73,8 @@
     display: flex;
     justify-content: center;
     vertical-align: bottom;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 150%;
     background-color: $bk-grey-four;
 }
 
@@ -89,17 +89,20 @@
 }
 
 .box-wrapper {
-    display: none;
-    top: -180px;
-    width: 100%;
     position: absolute;
+    display: none;
+    // top: -150px;
+    width: 100%;
+    bottom:10%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 1;
+    margin-bottom: 0;
 }
 
 .client-text{
+    position: relative;
     padding:1rem;
     color:white;
     z-index:5;
@@ -108,4 +111,10 @@
 .client-text p{
     font-size: .8125rem;
     line-height: 1.375rem;
+}
+
+.overlay-container{
+    display: flex;
+    z-index: 11;
+    height:50%;
 }
