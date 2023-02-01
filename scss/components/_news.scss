@@ -7,13 +7,10 @@
 }
 .inside-news-container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.ni, .ni2, .ni3 {
-    width: calc(100/3);
-}
 
 h3 {
     // padding-top: -20px;

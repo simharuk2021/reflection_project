@@ -112,35 +112,28 @@
     }
 }
 
+
+@media only screen and (min-width:$break-s) {
+   .inside-news-container{
+    flex-direction: row;
+   }
+}
+@media only screen and (min-width:$break-s) {
+   .ni3{display:none}
+ }
+
 //media query to hide the third news item on screen size reduction
-@media only screen and (max-width:1200px) {
-    .ni3 {
-        display: none !important;
-    }
+// @media only screen and (max-width:1200px) {
+//     .ni3 {
+//         display: none !important;
+//     }
 
-    .ni1,
-    .ni2 {
-        width: calc(100/2);
-    }
-}
+//     .ni1,
+//     .ni2 {
+//         width: calc(100/2);
+//     }
+// }
 
-//media query which displays the news items in one column
-@media only screen and (max-width:767px) {
-    .inside-news-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .news-image {
-        max-width: 100%;
-    }
-
-    .ni3 {
-        display: unset !important;
-    }
-
-
-}
 
 //media query which places the first three services as full width and places the remaining four into two rows of two
 @media only screen and (min-width:767px) {
