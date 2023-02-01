@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    // position: relative;
 
 }
 
@@ -21,6 +20,7 @@
     align-items: center;
     padding: 19px 0 18px;
     background-color: none;
+    width:10rem;
 }
 
 .nav-item {
@@ -36,6 +36,9 @@
             padding-top: 50px;
             padding-bottom: 50px;
         }
+        .fa-th, .fa-solid, .fas {
+            color:white;
+        }
     }
 }
 
@@ -49,12 +52,12 @@
     padding-bottom: 1px;
 }
 
-.navigation-icon {
+// .navigation-icon {
 
-    &:hover {
-        background-color: $bk-grey-four;
-    }
-}
+//     &:hover {
+//         background-color: $bk-grey-four;
+//     }
+// }
 
 .navigation-wrapper a {
     text-decoration: none;
@@ -65,7 +68,6 @@
     margin: 0;
     position: absolute;
     left: 0;
-    // background-color: #526781;
     z-index: 5;
     width: 100vw;
     margin: auto;
