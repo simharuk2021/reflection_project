@@ -9,11 +9,42 @@
 .img-cover {
 
     object-fit: scale-down;
-    background-image: linear-gradient(to right, black, transparent), url("../img/home-J8Xx.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
+
+}
+
+.img-cover--1 {
+
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_3.png");
+
+}
+.img-cover--2 {
+
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_4.jpeg");
+
+}
+.img-cover--3 {
+
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_5.png");
+
+}
+.img-cover--4 {
+
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_6.png");
+
+}
+
+.img-cover--5{
+    background-image: linear-gradient(to right, black, transparent), url("../img/home-J8Xx.png");
+}
+.img-cover--6{
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_1.jpeg");
+}
+.img-cover--7{
+    background-image: linear-gradient(to right, black, transparent), url("../img/asset_2.jpeg");
 }
 
 .banner-content {
@@ -23,7 +54,7 @@
     padding-top: 140px;
     z-index: 4;
     color: white;
-    position :relative;
+    position: relative;
 }
 
 .banner-headline {
@@ -36,5 +67,5 @@
     font-size: 1.625rem;
     line-height: 2.5rem;
     margin-bottom: 20px;
-    
+
 }
