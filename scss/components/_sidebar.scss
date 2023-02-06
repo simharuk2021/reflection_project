@@ -1,0 +1,33 @@
+.column-wrapper{
+    
+}
+    
+.sidebar{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    background-color: $bk-grey-four;
+    overflow-y:scroll;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sub-menu{
+    margin-top: 5rem;
+    color: white;
+
+}
+
+.sub-menu ul li{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.container{
+}
