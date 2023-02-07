@@ -13,18 +13,35 @@
     background-color: $bk-grey-four;
     overflow-y: scroll;
     transition: 0.5s;
-    padding-top: 60px;
+    text-align: center;
+    // padding-top: 60px;
 }
 
 .sub-menu {
-    margin-top: 5rem;
+    margin-top: 2rem;
     color: white;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .sub-menu ul li {
     list-style: none;
     text-transform: capitalize;
+    display: block;
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+background-color: rgba(0,0,0,.25);
+padding: 10px;
+text-decoration: none;
+border-top: 1px solid hsla(0,0%,100%,.05);
+
+}
+
+.sub-menu ul{
+    padding-left: 0;
 }
 
 .sidebar-inner {
