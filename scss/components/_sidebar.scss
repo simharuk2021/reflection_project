@@ -1,8 +1,6 @@
-.column-wrapper{
-    
-}
-    
-.sidebar{
+.column-wrapper {}
+
+.sidebar {
 
     display: flex;
     flex-direction: column;
@@ -13,21 +11,34 @@
     top: 0;
     right: 0;
     background-color: $bk-grey-four;
-    overflow-y:scroll;
+    overflow-y: scroll;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sub-menu{
+.sub-menu {
     margin-top: 5rem;
     color: white;
 
 }
 
-.sub-menu ul li{
+.sub-menu ul li {
     list-style: none;
     text-transform: capitalize;
 }
 
-.container{
+.sidebar-inner {
+    padding: 21px;
+}
+
+.sidebar-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none !important;
+    color: white;
+    text-transform: uppercase;
+    outline: 1px solid rgba(0, 0, 0, .25);
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    padding: 19px 0 18px;
 }
