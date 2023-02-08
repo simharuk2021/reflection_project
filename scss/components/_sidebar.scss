@@ -1,7 +1,7 @@
 .column-wrapper {}
 
 .sidebar {
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 100%;
     width: 275px;
@@ -16,7 +16,7 @@
 }
 
 .sidebar-full {
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 100%;
     width: 275px;
