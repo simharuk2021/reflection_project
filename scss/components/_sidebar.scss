@@ -1,8 +1,8 @@
 .sidebar {
-    display: none;
+    display:flex;
     flex-direction: column;
     height: 100%;
-    // width: 275px;
+    width: 275px;
     position: fixed;
     z-index: 20;
     top: 0;
@@ -13,11 +13,40 @@
     text-align: left;
 }
 
+@include media-query(medium) {
+
+    // .sidebar-full {
+    //     display:block !important;
+    // }
+    // .sidebar{display:none}
+    }
+    
+
+
+// if screen is over 600px wide, hide the sidebar
+@include media-query(small)  {
+    .sidebar { 
+        display:none !important;
+      
+    }
+
+    
+}
+// if the screen is smaller than 576px, hide the full screen sidebar
+@media only screen and (max-width:576px){
+    .sidebar-full{
+        display:none !important;
+    }
+}
+
+
+
+
 .sidebar-full {
-    // display: none;
+    display: none;
     flex-direction: column;
     height: 100%;
-    width: 350px;
+    width: 360px;
     position: fixed;
     z-index: 20;
     top: 0;
