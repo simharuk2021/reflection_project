@@ -7,3 +7,9 @@ $(document).ready(function(){
       items: 1,
     });
   });
+
+  // function which animates the hamburger on user click
+var $hamburger = $(".hamburger");
+$hamburger.on("click", function (e) {
+  $hamburger.toggleClass("is-active");
+});
