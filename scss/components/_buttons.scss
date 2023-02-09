@@ -88,9 +88,9 @@
 }
 
 .banner-button{
+	text-transform: uppercase;
 	color: #fff;
 	line-height: 50px;
-	background: $bk-rust;
 	border-radius: 3px;
 	text-align: center;
 	padding: 5px 20px;
@@ -101,6 +101,53 @@
 		&:hover{
 			color:white;
 		}
+}
+
+.east{
+	background-color: $bk-purple;
+	&:hover{
+		background-color: darken($bk-purple, 10%);
+	}
+}
+
+.bespoke{
+	background-color: $bk-blue-three;
+	&:hover{
+		background-color: darken($bk-blue-three, 10%);
+	}
+}
+
+.it{
+	background-color: $bk-blue-two;
+	&:hover{
+		background-color: darken($bk-blue-two, 10%);
+	}
+}
+
+.digital{
+	background-color: $bk-green;
+	&:hover{
+		background-color: darken($bk-green, 10%);
+	}
+}
+.telecoms{
+	background-color: $bk-rust;
+	&:hover{
+		background-color: darken($bk-rust, 10%);
+	}
+}
+.web{
+	background-color: $bk-purple;
+	&:hover{
+		background-color: darken($bk-purple, 10%);
+	}
+}
+
+.cyber{
+	background-color: #f62459;
+	&:hover{
+		background-color: darken(#f62459, 10%);
+	}
 }
 
 .banner-arrow{
