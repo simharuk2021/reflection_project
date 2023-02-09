@@ -163,6 +163,7 @@
         height: 56px;
         width: 63px;
         margin-top: 7px;
+        margin-right:1rem;
         border: none;
         background-color: $bk-grey-three;
         border-bottom-right-radius: 3px;
@@ -218,26 +219,5 @@
 
 }
 
-.hamburger-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 56px;
-    width:63px !important;
-    background-color: $bk-grey-four;
-    border:none;
-    cursor: pointer;
-    border-radius: 3px;
-    margin-top: 7px;
-    margin-left: 1rem;
-    margin-bottom: 15px;
 
-    &:hover{
-        background-color: darken($bk-grey-four, 10%);
-    }
-
-    & > a > i{
-        color: white;
-    }
-}
 
