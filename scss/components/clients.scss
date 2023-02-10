@@ -46,6 +46,7 @@
 .box {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     vertical-align: bottom;
     width: 250px;
@@ -75,6 +76,10 @@
     margin-bottom: 5rem;
 }
 
+.client-heading{
+    font-weight: 600;
+}
+
 .client-text{
     position: relative;
     padding:1rem;
@@ -91,4 +96,11 @@
     display: flex;
     z-index: 11;
     height:50%;
+}
+
+.dash{
+    border: 2px solid white;
+    width:15%;
+    margin-top: 0rem !important;
+    border-radius:3px;
 }
