@@ -72,6 +72,7 @@ function setCookie(cname="netmatters", cvalue="today", exdays) {
 //   });
 // };
 
+// funciton which closes the modal and removes the cookie-modal display
 function closeModal() {
   let modal = document.getElementById('cookie-modal')
   modal.style.display = "none"
