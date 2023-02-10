@@ -1,7 +1,7 @@
 .navigation {
     background-color: $bk-grey-four;
     position: relative;
-    z-index:19;
+    z-index: 19;
 }
 
 .navigation-wrapper {
@@ -21,8 +21,8 @@
     align-items: center;
     padding: 19px 0 18px;
     background-color: none;
-    width:10rem;
-    
+    width: 10rem;
+
 }
 
 .nav-item {
@@ -38,17 +38,21 @@
             padding-top: 50px;
             padding-bottom: 50px;
         }
-        .fa-th, .fa-solid, .fas {
-            color:white;
+
+        .fa-th,
+        .fa-solid,
+        .fas {
+            color: white;
         }
+
         .arrow-down {
-            width: 0; 
-            height: 0; 
+            width: 0;
+            height: 0;
             border-left: 20px solid transparent;
             border-right: 20px solid transparent;
-            
+
             border-top: 20px solid #f00;
-          }
+        }
     }
 }
 
@@ -60,6 +64,10 @@
 .nav-text-1 {
     font-size: .625rem;
     padding-bottom: 1px;
+}
+
+.nav-text-2 {
+    margin-bottom: -1px;
 }
 
 
@@ -113,8 +121,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
 
-  .sticky + .content {
+.sticky+.content {
     padding-top: 60px;
-  }
+}
