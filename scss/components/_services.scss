@@ -47,6 +47,14 @@
 .service-block p {
     padding: 5px 5px 0px 5px;
     margin-bottom: 0;
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    margin-bottom: 13px;
+    font-weight: 400;
+}
+
+.button-2{
+    height:44px;
 }
 
 a.block {
@@ -57,13 +65,13 @@ a.block {
     font-weight: 600;
 }
 
-.services-title{
+.services-title {
     font-weight: 600;
     font-size: 2.7rem;
 }
 
-.services-view{
+.services-view {
     font-weight: 600;
     font-size: 1.625rem;
-    color:$bk-grey-four;
+    color: $bk-grey-four;
 }
