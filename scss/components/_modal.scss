@@ -74,3 +74,12 @@
         background-color: darken($bk-purple, 10%);
     }
 }
+
+@include media-query(medium)  {
+    .modal-buttons { 
+        flex-direction:row;
+      
+    }
+
+    
+}
