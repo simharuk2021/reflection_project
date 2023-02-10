@@ -52,3 +52,28 @@ function navSticky() {
     navbar.classList.remove("sticky");
   }
 } 
+
+function setCookie(cname="netmatters", cvalue="today", exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+  closeModal();
+}
+
+
+	
+// var name = 'username';
+// var value = localStorage.getItem(name);
+// if(value == null) {
+//   setCookie().start().oncomplete(function() {
+//     localStorage.setItem(name, 1)
+//   });
+// };
+
+function closeModal() {
+  let modal = document.getElementById('cookie-modal')
+  modal.style.display = "none"
+  modal.close()
+}
