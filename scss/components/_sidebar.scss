@@ -27,8 +27,12 @@
 @include media-query(small)  {
     .sidebar { 
         display:none !important;
-      
+ 
     }
+
+    .sidebar-open{
+        transform: translate(-360px, 0);
+     } 
 
     
 }
@@ -36,7 +40,12 @@
 @media only screen and (max-width:576px){
     .sidebar-full{
         display:none !important;
+    
     }
+    // .sidebar-open{
+    //     // margin-left: -275px;
+    //     transform: translate(-275px, 0);
+    //  } 
 }
 
 

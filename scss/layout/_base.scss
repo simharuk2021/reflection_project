@@ -2,6 +2,7 @@ body{
     font-family: $font-stack-secondary;
     letter-spacing: .4px;
     color: #666;
+    transition: all .3s ease-in-out;
 }
 
 * {
