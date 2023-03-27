@@ -1,0 +1,23 @@
+.location-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    font-size: .8125rem;
+    color: #333645;
+}
+
+.location-cont {
+    margin-top: 1rem;
+    max-width: 1200px;
+}
+
+
+.bold a {
+    font-weight: bold;
+    color: #333645;
+}
+
+.bold a:hover {
+    text-decoration: none;
+}

@@ -1,5 +1,4 @@
 <?php
-
 echo '
 <head>
 <meta charset="UTF-8">
@@ -26,6 +25,7 @@ echo '
 <link href="css/normalize.css" rel="stylesheet">
 <link rel="stylesheet" href="../css/style.css">
 <link rel="stylesheet" href="../css/hamburgers.css">
+<link rel="stylesheet" href="../css/contact.css">
 </head>
 <header class="header">
 <div class="container">
