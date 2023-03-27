@@ -1,19 +1,48 @@
 <?php
 
-echo '<header class="header">
+echo '
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="netmatters">
+<script src="https://kit.fontawesome.com/271f4647db.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<title>Netmatters|Full Service Digital Agency|Cambridgeshire & Norfolk| Netmatters </title>
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="css/normalize.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/hamburgers.css">
+</head>
+<header class="header">
 <div class="container">
     <div class="top-row">
-        <a class="header-logo" href="index.html">
-            <img src="img/asset_0.png" class="nm-logo" alt="net-matters corporate logo">
+        <a class="header-logo" href="index.php">
+            <img src="../img/asset_0.png" class="nm-logo" alt="net-matters corporate logo">
         </a>
         <button class="header-support-btn" type="button">
             <i class="fa-solid fa-computer-mouse"></i>
             Support
         </button>
+        <a class = "no-uline" href="src/contact.php">
         <button class="header-contact-btn" type="button">
             <i class="fa-regular fa-paper-plane"></i>
             Contact
         </button>
+        </a>
         <input class="header-search" type="search" placeholder="Search...">
         <button class="header-search-btn" type="submit">
             <i class="fa-solid fa-magnifying-glass"></i>

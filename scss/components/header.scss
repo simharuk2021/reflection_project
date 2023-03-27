@@ -62,7 +62,6 @@
         @include media-query (large) {
             display: block;
         }
-
         & > i {
             color: white;
             font-size: 20px;
@@ -76,6 +75,7 @@
 
         &:hover {
             background-color: darken($bk-grey-three, 10%);
+            text-decoration: none !important;
         }
     }
 
@@ -87,6 +87,8 @@
         }
     }
 }
+
+
 
 .top-row {
     margin-bottom: 8px;
