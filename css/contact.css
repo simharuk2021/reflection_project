@@ -21,3 +21,45 @@
 .bold a:hover {
     text-decoration: none;
 }
+
+.location-card-content{
+    padding:30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-card-header{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #333645;
+}
+
+.location-card-text{
+    font-size: .8125rem;
+    line-height: 1.375rem;
+    color: #333645;
+    font-weight: 400;
+}
+
+.location-card-phone{
+    font-weight:700;
+    font-size:1.625rem;
+    color: #926fb1 !important;
+}
+
+.btn-contact{
+    color: #fff;
+    background-color: #7e57a0;
+    border-color: #735093;
+    padding: .625em 1.25em;
+    font-size: .9em;
+    line-height: 35px;
+    border-radius: 3px;
+}
+
+.btn-contact:hover {
+    text-decoration: none;
+    color: white;
+    background-color: darken(#7e57a0, 10%);
+}
