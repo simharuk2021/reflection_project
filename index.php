@@ -280,7 +280,7 @@
         </div>
         <div class = "main-content">
             <!-- includes the php header file from the source directory -->
-            <?php include ('src/header.php') ?>
+            <?php include ('header.php') ?>
         
 
         <!-- banner including a autoplaying carousel of images -->

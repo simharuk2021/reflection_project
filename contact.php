@@ -10,8 +10,9 @@ include('header.php');
             <ul>
     </div>
     <div class = "container">
+        <h1>Our Offices</h1>
         <div class ="location-card">
-            <img class = "location-card-img">
+            <img class = "location-card-img" src="img/contact_assets/asset 1.jpeg">
             <div class = "location-card-content">
             <h2 class = "location-card-header"><a>London Office</a></h2>
             <p class = "location-card-text">Unit G6,

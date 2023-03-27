@@ -22,12 +22,26 @@
     text-decoration: none;
 }
 
+.location-card{
+    width:50%;
+    border : 1px solid #CCC;  
+    border-radius: 20px;
+
+}
+
 .location-card-content{
-    padding:30px;
     text-align: left;
     display: flex;
     flex-direction: column;
+    padding:30px;
 }
+
+.location-card-img{
+    width:100%;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
 
 .location-card-header{
     font-size: 1.25rem;
@@ -58,8 +72,6 @@
     border-radius: 3px;
 }
 
-.btn-contact:hover {
-    text-decoration: none;
-    color: white;
-    background-color: darken(#7e57a0, 10%);
+#cont-but:hover{
+    text-decoration:none !important; ;
 }

@@ -23,21 +23,21 @@ echo '
     integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link href="css/normalize.css" rel="stylesheet">
-<link rel="stylesheet" href="../css/style.css">
-<link rel="stylesheet" href="../css/hamburgers.css">
-<link rel="stylesheet" href="../css/contact.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/hamburgers.css">
+<link rel="stylesheet" href="css/contact.css">
 </head>
 <header class="header">
 <div class="container">
     <div class="top-row">
         <a class="header-logo" href="index.php">
-            <img src="../img/asset_0.png" class="nm-logo" alt="net-matters corporate logo">
+            <img src="img/asset_0.png" class="nm-logo" alt="net-matters corporate logo">
         </a>
         <button class="header-support-btn" type="button">
             <i class="fa-solid fa-computer-mouse"></i>
             Support
         </button>
-        <a class = "no-uline" href="src/contact.php">
+        <a class = "no-uline" id="cont-but" href="contact.php">
         <button class="header-contact-btn" type="button">
             <i class="fa-regular fa-paper-plane"></i>
             Contact
