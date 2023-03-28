@@ -82,7 +82,7 @@ include('header.php');
                             <button class="btn btn-contact"> VIEW MORE</button>
                 </div>
                 <div class="location-card-map">
-                    <div style="overflow:hidden;max-width:100%;width:500px;height:200px;">
+                    <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
                         <div id="google-maps-display">
                             <iframe style="height:100%;width:100%;border:0;" frameborder="0"
                                 src="https://www.google.com/maps/embed/v1/place?q=Penfold+Drive,+Wymondham+NR18+0WZ,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
@@ -119,15 +119,46 @@ include('header.php');
         </div>
             <div class="contact-form-container container">
                 <div class = "contact-email-details">
-                    <p><strong>Email us on:</strong></p>
-                    <h3>sales@netmatters.com</h3>
+                    <p><strong>Email us on:</strong>
+                    <br>
+                    </p>
+                    <h3 class="contact-page-email">sales@netmatters.com</h3>
                     <p><strong>Business Hours:</strong></p>
                     <p><strong>Monday - Friday 07:00 - 18:00</strong></p>
                     <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
                     
                 </div>
                 <div class="contact-page-form">
-                </div>
+                    <div class = "contact-form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <span class ="form-space"></span>
+                    <div class="form-group">
+                        <label for="company-name">Company Name</label>
+                        <input type="text" class="form-control" id="company-name"> 
+                    </div>
+                    </div>  
+                    <div class = "contact-form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <span class ="form-space"></span>
+                    <div class="form-group">
+                        <label for="Your Telephone Number">Your Telephone</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5"></textarea>
+                    </div>
 
                 </div>
             </div>

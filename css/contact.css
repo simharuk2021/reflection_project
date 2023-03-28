@@ -95,6 +95,58 @@
 
 }
 
-#google-maps-display{
-    max-height:200px;
+/* #google-maps-display {
+    max-height: 200px;
+} */
+
+.contact-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.contact-form-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-space:before {content:"\00a0\00a0\00a0\00a0";}
+
+
+
+@media only screen and (max-width: 991px) {
+    .contact-form-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form-row{
+        flex-direction: column;
+    }
+    .form-space:before{display:none}
+}
+
+.contact-email-details{
+    font-weight: 600;
+    color: #333645;
+    margin: 1rem;
+}
+
+.contact-page-form {
+    background-color: #e6e7e9;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 1rem;
+}
+
+.contact-page-email{
+    font-weight: 600;
+    color: #926fb1 !important;
+    font-size: 1.625rem;
+}
+
+.contact-page-email:hover {
+    text-decoration:underline;
+    cursor: pointer;
 }
