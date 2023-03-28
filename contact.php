@@ -131,35 +131,66 @@ include('header.php');
                 <div class="contact-page-form">
                     <div class = "contact-form-row">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name" class="required">Name</label>
                         <input type="text" class="form-control" id="name">
                     </div>
                     <span class ="form-space"></span>
                     <div class="form-group">
-                        <label for="company-name">Company Name</label>
+                        <label for="company-name" class="required">Company Name</label>
                         <input type="text" class="form-control" id="company-name"> 
                     </div>
                     </div>  
                     <div class = "contact-form-row">
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email" class="required">Email</label>
                         <input type="email" class="form-control" id="email">
                     </div>
                     <span class ="form-space"></span>
                     <div class="form-group">
-                        <label for="Your Telephone Number">Your Telephone</label>
+                        <label for="Your Telephone Number" class="required">Your Telephone</label>
                         <input type="text" class="form-control" id="phone">
                     </div>
                     </div>
                     <div class="form-group">
-                        <label for="subject">Subject</label>
+                        <label for="subject" class="required">Subject</label>
                         <input type="text" class="form-control" id="subject">
                     </div>
                     <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message" class="required">Message</label>
                         <textarea class="form-control" id="message" rows="5"></textarea>
                     </div>
+                
+            <div class="enquiry-container">
+                <div class = "contact-form-row">
+                    <div class="form-group">
+                        <label class="required">Your Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <span class ="form-space"></span>
+                    <div class="form-group">
+                        <label class="required">Your Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                </div>
+                <!-- <div class="sign-up-button-container"> -->
+                    <input type="checkbox" class="checkbox">
+                    <span class="privacy-policy"> Please tick this box if you wish to receive marketing
+                        information
+                        from
+                        us. Please see our <a id="privacy-link" href="#">Privacy Policy</a> for more information
+                        on
+                        how
+                        we keep your data
+                        safe.</span>
 
+                    <br>
+                    <br>
+                    <div class="sign-up-btn">
+                        <a id="signup-button" href="index.html">Send Enquiry</a>
+                    </div>
+                <!-- </div> -->
+            </div>
+    
                 </div>
             </div>
     </div>  
