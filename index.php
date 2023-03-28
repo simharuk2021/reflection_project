@@ -743,38 +743,7 @@
         </section>
 
         <!-- Section where users can sign up to the newsletter -->
-        <section id="newsletter">
-            <div class="sign-up-container">
-                <h2>Email Newsletter Sign-Up</h2>
-                <div class="form-wrapper">
-                    <div class="sign-up-input">
-                        <label class="required">Your Name</label>
-                        <input type="text" class="user_name form-control">
-                    </div>
-                    <div class="sign-up-input">
-                        <label class="required">Your Email</label>
-                        <input type="email" class="user_email form-control">
-                    </div>
-                </div>
-                <div class="sign-up-button-container">
-                    <input type="checkbox" class="checkbox">
-                    <span class="privacy-policy"> Please tick this box if you wish to receive marketing
-                        information
-                        from
-                        us. Please see our <a id="privacy-link" href="#">Privacy Policy</a> for more information
-                        on
-                        how
-                        we keep your data
-                        safe.</span>
-
-                    <br>
-                    <br>
-                    <div class="sign-up-btn">
-                        <a id="signup-button" href="index.html">Subscribe</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <!-- cookies modal -->
         <div id="cookie-modal">
             <div class="modal-fade">

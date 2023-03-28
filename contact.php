@@ -117,9 +117,21 @@ include('header.php');
                 </div>
             </div>
         </div>
-        <div class= "form">
-            
-        </div>
-    </div>
+            <div class="contact-form-container container">
+                <div class = "contact-email-details">
+                    <p><strong>Email us on:</strong></p>
+                    <h3>sales@netmatters.com</h3>
+                    <p><strong>Business Hours:</strong></p>
+                    <p><strong>Monday - Friday 07:00 - 18:00</strong></p>
+                    <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
+                    
+                </div>
+                <div class="contact-page-form">
+                </div>
 
+                </div>
+            </div>
+    </div>  
+    <?php include('src/footer.php');
+?>
 </html>
