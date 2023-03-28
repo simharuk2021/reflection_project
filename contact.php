@@ -186,7 +186,7 @@ include('header.php');
                     <br>
                     <br>
                     <div class="sign-up-btn">
-                        <a id="signup-button" href="index.html">Send Enquiry</a>
+                        <a class="btn btn-contact no-uline" href="index.html">SEND ENQUIRY</a>
                     </div>
                 <!-- </div> -->
             </div>

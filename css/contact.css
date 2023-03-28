@@ -90,6 +90,12 @@
     border-radius: 3px;
 }
 
+.btn-contact:hover {
+    color: #fff;
+    background-color: #735093;
+    border-color: #7e57a0;
+}
+
 #cont-but:hover {
     text-decoration: none !important;
 
