@@ -600,7 +600,7 @@
             <div class="inside-news-container">
                 <article class="news-item ni1">
                     <a href="#" class="news-text-wrapper">
-                        <img src="img/our-digital-marketing-CpeX.png" class="news-image"
+                        <img src="<?php echo($result['Image']) ;?>" class="news-image"
                             alt="digital marketing partnership">
                         <div class="news-text">
                             <h3 class="nh1"><strong><?php echo($result['Title']) ;?></strong>
@@ -613,11 +613,11 @@
                             </div>
                             <div class="posted">
                                 <div class="posted-image">
-                                    <img src="img/asset_30.png" alt="letter n netmatters logo">
+                                    <img src="<?php echo($result['Logo']) ;?>" alt="letter n netmatters logo">
                                 </div>
                                 <div class="posted-text">
-                                    <strong>Posted By Netmatters</strong>
-                                    <p>15th December 2022</p>
+                                    <strong><?php echo($result['Posted_By']) ;?></strong>
+                                    <p><?php echo($result['Date']) ;?></p>
                                 </div>
                             </div>
                         </div>
@@ -625,7 +625,7 @@
                 </article>
                 <article class="news-item ni2">
                     <a href="#" class="news-text-wrapper">
-                        <img src="img/one-traveller-xEYm.png" class="news-image" alt="one traveller image">
+                        <img src="<?php echo($result2['Image']) ;?>" class="news-image" alt="one traveller image">
                         <div class="news-text">
                             <h3 class="nh2"><strong><?php echo($result2['Title']) ;?></strong></h3>
                             <p><?php echo($result2['Paragraph']) ;?></p>
@@ -636,11 +636,11 @@
                             </div>
                             <div class="posted">
                                 <div class="posted-image">
-                                    <img src="img/asset_30.png" alt="letter n netmatters logo">
+                                    <img src="<?php echo($result2['Logo']) ;?>" alt="letter n netmatters logo">
                                 </div>
                                 <div class="posted-text">
-                                    <strong>Posted By Netmatters</strong>
-                                    <p>15th December 2022</p>
+                                    <strong><?php echo($result2['Posted_By']) ;?></strong>
+                                    <p><?php echo($result2['Date']) ;?></p>
                                 </div>
                             </div>
                         </div>
@@ -648,14 +648,11 @@
                 </article>
                 <article class="news-item ni3">
                     <a href="#" class="news-text-wrapper">
-                        <img src="img/senior-web-developer-8f6n.jpg" class="news-image"
+                        <img src="<?php echo($result3['Image']) ;?>" class="news-image"
                             alt="senior web developer job advert">
                         <div class="news-text">
-                            <h3 class="nh2"><strong>Senior Web Developer/Sytems Architect</strong></h3>
-                            <p>Salary Range £40k-50k DOE + Bonus + Benefits Hours 40 per week, Mon-Fri. Flexible
-                                working
-                                hou....
-                           
+                            <h3 class="nh2"><strong><?php echo($result3['Title']) ;?></strong></h3>
+                            <p><?php echo($result3['Paragraph']) ;?>
                             </p>
                         </br>
                             <div class="news-button-container">
@@ -664,11 +661,11 @@
                             </div>
                             <div class="posted">
                                 <div class="posted-image">
-                                    <img src="img/asset_27.jpeg" alt="letter n netmatters logo">
+                                    <img src="<?php echo($result3['Logo']) ;?>" alt="letter n netmatters logo">
                                 </div>
                                 <div class="posted-text">
-                                    <strong>Posted By Simon Wright</strong>
-                                    <p>15th December 2022</p>
+                                    <strong><?php echo($result3['Posted_By']) ;?></strong>
+                                    <p><?php echo($result3['Date']) ;?></p>
                                 </div>
                             </div>
                         </div>

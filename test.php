@@ -16,7 +16,7 @@ try{
 //     echo $row['Image'];
 // }
 
-$statement = $pdo->prepare("SELECT ID, Title, Paragraph, Image, Posted_By, Date  FROM details");
+$statement = $pdo->prepare("SELECT ID, Title, Paragraph, Image, Posted_By, Date, Logo FROM details");
 $statement->execute();
 
 
@@ -29,20 +29,20 @@ $result = $statement->fetch(PDO::FETCH_ASSOC);
 // echo($result['Date']);
 
 $result2 = $statement->fetch(PDO::FETCH_ASSOC);
-echo("RESULT 2 ");
-echo($result2['Title']);
-echo($result2['Paragraph']);
-echo($result2['Image']);
-echo($result2['Posted_By']);
-echo($result2['Date']);
+// echo("RESULT 2 ");
+// echo($result2['Title']);
+// echo($result2['Paragraph']);
+// echo($result2['Image']);
+// echo($result2['Posted_By']);
+// echo($result2['Date']);
 
 $result3 = $statement->fetch(PDO::FETCH_ASSOC);
-echo("RESULT 3 ");
-echo($result3['Title']);
-echo($result3['Paragraph']);
-echo($result3['Image']);
-echo($result3['Posted_By']);
-echo($result3['Date']);
+// echo("RESULT 3 ");
+// echo($result3['Title']);
+// echo($result3['Paragraph']);
+// echo($result3['Image']);
+// echo($result3['Posted_By']);
+// echo($result3['Date']);
 
 ?>
 
