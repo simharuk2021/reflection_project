@@ -1,6 +1,8 @@
+<?php include ('credentials.php'); ?>
+<?php include ('test.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="netmatters">
@@ -593,7 +595,7 @@
                 </div>
             </div>
         </div>
-
+      
         <section class="container">
             <div class="inside-news-container">
                 <article class="news-item ni1">
@@ -601,12 +603,9 @@
                         <img src="img/our-digital-marketing-CpeX.png" class="news-image"
                             alt="digital marketing partnership">
                         <div class="news-text">
-                            <h3 class="nh1"><strong>Our Digital Marketing Partnership with the Gi...</strong>
+                            <h3 class="nh1"><strong><?php echo($result['Title']) ;?></strong>
                             </h3>
-                            <p>The Client the Girls' Day School Trust (GDST) is the UK's leading family of 25
-                                independent
-                                girls'
-                                sc...</p>
+                            <p><?php echo($result['Paragraph']) ;?>.</p>
                             <br>
                             <div class="news-button-container">
                                 <span class="nb1">READ MORE</span>
@@ -628,11 +627,8 @@
                     <a href="#" class="news-text-wrapper">
                         <img src="img/one-traveller-xEYm.png" class="news-image" alt="one traveller image">
                         <div class="news-text">
-                            <h3 class="nh2"><strong>One Traveller - Web Case Study</strong></h3>
-                            <p>This article showcases how a combined website and software solution can be
-                                implemented to
-                                create
-                                an...</p>
+                            <h3 class="nh2"><strong><?php echo($result2['Title']) ;?></strong></h3>
+                            <p><?php echo($result2['Paragraph']) ;?></p>
                             <br>
                             <div class="news-button-container">
                                 <span class="nb2">READ MORE</span>

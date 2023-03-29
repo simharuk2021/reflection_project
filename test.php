@@ -1,5 +1,5 @@
 <?php
-require_once("../inc/credentials.php");
+require("credentials.php");
 
 try{
     $pdo = new PDO($attr, $user, $pass, $opts);
@@ -21,12 +21,12 @@ $statement->execute();
 
 
 $result = $statement->fetch(PDO::FETCH_ASSOC);
-echo("RESULT 1 ");
-echo($result['Title']) ;
-echo($result['Paragraph']);
-echo($result['Image']);
-echo($result['Posted_By']);
-echo($result['Date']);
+// echo("RESULT 1 ");
+// echo($result['Title']) ;
+// echo($result['Paragraph']);
+// echo($result['Image']);
+// echo($result['Posted_By']);
+// echo($result['Date']);
 
 $result2 = $statement->fetch(PDO::FETCH_ASSOC);
 echo("RESULT 2 ");
