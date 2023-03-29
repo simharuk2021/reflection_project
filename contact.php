@@ -1,5 +1,6 @@
 <?php
 include('header.php');
+include('test.php');
 
 ?>
 <html>
@@ -128,11 +129,12 @@ include('header.php');
                     <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
                     
                 </div>
+                <form method="post" action="contact.php">
                 <div class="contact-page-form">
                     <div class = "contact-form-row">
                     <div class="form-group">
                         <label for="name" class="required">Name</label>
-                        <input type="text" class="form-control" id="name">
+                        <input type="text" class="form-control" id="name" name="Name">
                     </div>
                     <span class ="form-space"></span>
                     <div class="form-group">
@@ -159,7 +161,7 @@ include('header.php');
                         <label for="message" class="required">Message</label>
                         <textarea class="form-control" id="message" rows="5"></textarea>
                     </div>
-                
+                   
             <div class="enquiry-container">
                 <div class = "contact-form-row">
                     <div class="form-group">
@@ -186,12 +188,13 @@ include('header.php');
                     <br>
                     <br>
                     <div class="sign-up-btn">
-                        <a class="btn btn-contact no-uline" href="index.html">SEND ENQUIRY</a>
+                        <input class="btn btn-contact" type="submit" value="SEND ENQUIRY">
                     </div>
                 <!-- </div> -->
             </div>
     
                 </div>
+                </form>
             </div>
     </div>  
     <?php include('src/footer.php');
