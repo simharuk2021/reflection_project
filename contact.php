@@ -141,7 +141,8 @@ include('form.php');
                     <span class ="form-space"></span>
                     <div class="form-group">
                         <label for="company-name" class="required">Company Name</label>
-                        <input type="text" class="form-control" id="company-name"> 
+                        <input type="text" class="form-control" id="company-name" name="compName"> 
+                        <span class = "error"><?php echo $compErr;?></span>
                     </div>
                     </div>  
                     <div class = "contact-form-row">
@@ -153,19 +154,23 @@ include('form.php');
                     <span class ="form-space"></span>
                     <div class="form-group">
                         <label for="Your Telephone Number" class="required">Your Telephone</label>
-                        <input type="text" class="form-control" id="phone">
+                        <input type="tel" class="form-control" id="phone" name="phone" pattern="^((\(?0\d{4}\)?\s?\d{3}\s?\d{3})|(\(?0\d{3}\)?\s?\d{3}\s?\d{4})|(\(?0\d{2}\)?\s?\d{4}\s?\d{4}))(\s?\#(\d{4}|\d{3}))?$,
+                        ^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$">
+                        <span class = "error"><?php echo $phoneErr;?></span>
                     </div>
                     </div>
                     <div class="form-group">
                         <label for="subject" class="required">Subject</label>
-                        <input type="text" class="form-control" id="subject">
+                        <input type="text" class="form-control" id="subject" name="subject" maxlength="20">
+                        <span class = "error"><?php echo $subjErr;?></span>
                     </div>
                     <div class="form-group">
                         <label for="message" class="required">Message</label>
-                        <textarea class="form-control" id="message" rows="5"></textarea>
+                        <textarea class="form-control" id="message" rows="5" name="message"></textarea>
+                        <span class = "error"><?php echo $messErr;?></span>
                     </div>
                    
-            <div class="enquiry-container">
+            <!-- <div class="enquiry-container">
                 <div class = "contact-form-row">
                     <div class="form-group">
                         <label class="required">Your Name</label>
@@ -176,7 +181,7 @@ include('form.php');
                         <label class="required">Your Email</label>
                         <input type="email" class="form-control" id="email">
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="sign-up-button-container"> -->
                     <input type="checkbox" class="checkbox">
                     <span class="privacy-policy"> Please tick this box if you wish to receive marketing

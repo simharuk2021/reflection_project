@@ -7,8 +7,8 @@ try{
     throw new PDOException($e->getMessage());
 }
 
-$nameErr = $emailErr = $mobilenoErr = $genderErr = $websiteErr = $agreeErr = "";  
-$name = $email = $mobileno = $gender = $website = $agree = "";  
+$nameErr = $emailErr = $compErr = $phoneErr = $subjErr = $messErr = "";  
+$name = $email = $compName = $phone = $subject = $message = "";  
 
 function input_data($data) {  
     $data = trim($data);  
@@ -30,7 +30,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $nameErr = "Only alphabets and white space are allowed";  
                 }  
         }  
-
+        if (empty($_POST["compName"])) {  
+             $compErr = "Company name is required";  
+        } else {  
+            $compName = input_data($_POST["compName"]);  
+                // check if name only contains letters and whitespace  
+                if (!preg_match("/^[a-zA-Z ]*$/",$compName)) {  
+                    $compErr = "Only alphabets and white space are allowed";  
+                }  
+        }  
+                // email validation
         if (empty($_POST["email"])) {
             $emailErr = "Email is required";
          }else {
@@ -42,9 +51,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
          }
 
+         if (empty($_POST["phone"])) {
+            $phoneErr = "Phone number is required";
+         }else {
+            $phone = input_data($_POST["phone"]);
+            // check if the uk phone number matches a uk mobile or landline number
+            if (!preg_match($telString, $phone)) {
+               $phoneErr = "Invalid telephone format"; 
+            }
+         }
+        
+         if (empty($_POST["subject"])) {  
+            $subjErr = "Subject is required";  
+       } else {  
+           $subject = input_data($_POST["subject"]);  
+               // check if name only contains letters and whitespace  
+               if (!preg_match("/^[a-zA-Z ]*$/",$subject)) {  
+                   $subjErr = "Only alphabets and white space are allowed";  
+               }  
+       }  
+         if (empty($_POST["message"])) {  
+            $messErr = "Message is required";  
+       } else {  
+           $message = input_data($_POST["message"]);  
+               // check if name only contains letters and whitespace  
+               if (!preg_match("/^[a-zA-Z ]*$/",$message)) {  
+                   $messErr = "Only alphabets and white space are allowed";  
+               }  
+       }  
+        
 
 
-if ($nameErr == "" && $emailErr == ""){ $query =  $pdo->prepare("INSERT INTO `contact_form`(`Name`, `Email`) values('$name', '$email')");
+
+if ($nameErr == "" && $emailErr == "" && $compErr == "" && $phoneErr == "" && $subjErr == "" && $messErr == "") 
+    
+{ $query =  $pdo->prepare("INSERT INTO `contact_form`(`Name`, `Email`, `Company`, `Telephone`, `Subject`, `Message`) 
+values('$name', '$email', '$compName', '$phone', '$subject','$message')");
  echo($query->execute());
 }
 }
