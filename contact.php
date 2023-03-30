@@ -1,6 +1,7 @@
 <?php
 include('header.php');
 include('test.php');
+include('form.php');
 
 ?>
 <html>
@@ -129,12 +130,13 @@ include('test.php');
                     <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
                     
                 </div>
-                <form method="post" action="contact.php">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">>
                 <div class="contact-page-form">
                     <div class = "contact-form-row">
                     <div class="form-group">
                         <label for="name" class="required">Name</label>
                         <input type="text" class="form-control" id="name" name="Name">
+                        <span class = "error"><?php echo $nameErr;?></span>
                     </div>
                     <span class ="form-space"></span>
                     <div class="form-group">
@@ -145,7 +147,8 @@ include('test.php');
                     <div class = "contact-form-row">
                     <div class="form-group">
                         <label for="email" class="required">Email</label>
-                        <input type="email" class="form-control" id="email">
+                        <input type="email" class="form-control" id="email" name="email">
+                        <span class = "error"><?php echo $emailErr;?></span>
                     </div>
                     <span class ="form-space"></span>
                     <div class="form-group">
@@ -188,7 +191,7 @@ include('test.php');
                     <br>
                     <br>
                     <div class="sign-up-btn">
-                        <input class="btn btn-contact" type="submit" value="SEND ENQUIRY">
+                        <input class="btn btn-contact" type="submit" name="submit" value="SEND ENQUIRY">
                     </div>
                 <!-- </div> -->
             </div>
