@@ -8,7 +8,8 @@ try{
 }
 
 $nameErr = $emailErr = $compErr = $phoneErr = $subjErr = $messErr = "";  
-$name = $email = $compName = $phone = $subject = $message = "";  
+$success = $name = $email = $compName = $phone = $subject = $message = "";  
+
 
 function input_data($data) {  
     $data = trim($data);  
@@ -80,13 +81,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                }  
        }  
         
-
-
-
 if ($nameErr == "" && $emailErr == "" && $compErr == "" && $phoneErr == "" && $subjErr == "" && $messErr == "") 
     
 { $query =  $pdo->prepare("INSERT INTO `contact_form`(`Name`, `Email`, `Company`, `Telephone`, `Subject`, `Message`) 
 values('$name', '$email', '$compName', '$phone', '$subject','$message')");
  echo($query->execute());
+ $success = "Your message has been submitted";
 }
 }

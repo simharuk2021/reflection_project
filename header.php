@@ -3,9 +3,8 @@ echo '
 <head>
 <meta charset="UTF-8">
 <meta name="description" content="netmatters">
-<script src="https://kit.fontawesome.com/271f4647db.js" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"
+integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="shortcut icon" href="img/favicon.ico">
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">

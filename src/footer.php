@@ -141,6 +141,7 @@ echo'<head>
                 </div>
             </div>
 
-        </footer>';
+        </footer>'
+        ;
 
         ?>

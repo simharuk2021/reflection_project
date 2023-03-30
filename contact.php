@@ -130,7 +130,7 @@ include('form.php');
                     <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
                     
                 </div>
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">>
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]. "#form_top");?>" id="form_top">
                 <div class="contact-page-form">
                     <div class = "contact-form-row">
                     <div class="form-group">
@@ -161,13 +161,13 @@ include('form.php');
                     </div>
                     <div class="form-group">
                         <label for="subject" class="required">Subject</label>
-                        <input type="text" class="form-control" id="subject" name="subject" maxlength="20">
+                        <input type="text" class="form-control" id="subject" name="subject" maxlength="50">
                         <span class = "error"><?php echo $subjErr;?></span>
                     </div>
                     <div class="form-group">
                         <label for="message" class="required">Message</label>
                         <textarea class="form-control" id="message" rows="5" name="message"></textarea>
-                        <span class = "error"><?php echo $messErr;?></span>
+                        <span class = "error"><?php echo $messErr, $success;?></span>
                     </div>
                    
             <!-- <div class="enquiry-container">
