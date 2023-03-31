@@ -83,10 +83,11 @@ include('form.php');
                     <h3 class="location-card-phone">01603 70 40 20<h3>
                             <button class="btn btn-contact"> VIEW MORE</button>
                 </div>
+             
                 <div class="location-card-map">
                     <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
-                        <div id="google-maps-display">
-                            <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+                        <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe
+                                style="height:100%;width:100%;border:0;" frameborder="0"
                                 src="https://www.google.com/maps/embed/v1/place?q=Penfold+Drive,+Wymondham+NR18+0WZ,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                         </div>
                     </div>
@@ -109,18 +110,18 @@ include('form.php');
                     <h3 class="location-card-phone">01493 60 32 04<h3>
                             <button class="btn btn-contact"> VIEW MORE</button>
                 </div>
-                <div class="location-card-map">
+                <div class="location-card-map" >
                     <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
                         <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe
                                 style="height:100%;width:100%;border:0;" frameborder="0"
-                                src="https://www.google.com/maps/embed/v1/place?q=Gorleston-on-Sea,+Great+Yarmouth+NR31+7RA,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                src="https://www.google.com/maps/embed/v1/place?q=Gorleston-on-Sea,+Great+Yarmouth+NR31+7RA,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" ></iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-            <div class="contact-form-container container">
-                <div class = "contact-email-details">
+            <div class="contact-form-container container" id="form_top">
+                <div class = "contact-email-details" >
                     <p><strong>Email us on:</strong>
                     <br>
                     </p>
@@ -130,7 +131,7 @@ include('form.php');
                     <p><strong>Out of Hours IT Support<em style="font-style: normal" class="fa fa-chevron-down rotate"></em></strong></p>
                     
                 </div>
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]. "#form_top");?>" id="form_top">
+                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]. "#form_top");?>">
                 <div class="contact-page-form">
                     <div class = "contact-form-row">
                     <div class="form-group">

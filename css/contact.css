@@ -98,12 +98,7 @@
 
 #cont-but:hover {
     text-decoration: none !important;
-
 }
-
-/* #google-maps-display {
-    max-height: 200px;
-} */
 
 .contact-form-container {
     display: flex;
